@@ -20,6 +20,12 @@
 body {
 	margin-top: 0;
 	height:100%;
+	width:100%;
+	height:100%;
+	background-image:url("http://reinhardt.jomc.unc.edu/media/uploads/background-video/jpg/BG_Pelican_Sunset.jpg");
+	background-repeat:repeat-y;
+	z-index:0;
+	position:absolute;
 }
 
 #bg-fallback-stories {
@@ -42,25 +48,6 @@ body {
 	position:absolute;
 	top:0;
 	left:0;
-}
-
-	
-.video-background {
-	position: fixed;	
-	top: 0;
-	left: 0;
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-	z-index: -100;
-	background-image:url("http://reinhardt.jomc.unc.edu/media/uploads/background-video/jpg/fish_bg.jpg");
-	
-}
-
-
-.video-background video {
-	min-height: 100%; 
-	min-width:100%; 
 }
 
 #logo-li {margin-bottom: 0em; width: 21.68%; height: 160px; display: inline; background-size:30%; float: left;  }
@@ -110,10 +97,6 @@ div#botbutton {bottom: 0; line-height: 41px; vertical-align: bottom;}
 
 div.dim {position: fixed; top: 0; bottom: 0; left: 0; right: 0; height: 3000px; z-index: 8; background-image:url(../images/dim.png); display: none; opacity: 0.0;}
 
-#vidrow-home {z-index: 10;}
-#vidrow {z-index: 10;background-image: url("http://reinhardt.jomc.unc.edu/static/images/nav_bg.png");}
-#video-div {position: relative; z-index: 1;}
-#video-div div {margin-bottom: 0px;}
 bottom-cream-bar-container {background-image:url(../images/nav_bg.png); border:1px solid red;}
 #bottom-cream-bar {height: 40px; background-color: #EAE5D7;}
 .body-row {margin-top: 40px;}
@@ -124,55 +107,27 @@ box-shadow: 0 0 13px #000;
 
 }
 
-#article-more-box {height: 100%; border: none; background-image: url(../images/content-top.png); background-repeat:repeat-x; background-color:#fff; 
+#info-box {height: 100%; border: none; background-image: url(../images/content-top.png); background-repeat:repeat-x; background-color:#fff; 
 -moz-box-shadow: 0 0 13px #000;
 -webkit-box-shadow: 0 0 13px #000;
 box-shadow: 0 0 13px #000;
 padding-top: .9em;
 padding-left: .9em;
+padding-bottom: .9em;
+margin-bottom: 1em;
 
 }
 
-#honeycomb {
-margin: 1em 0em 1em 0em;
-}
-
-.reportInfo{
-	background-color: red;
-	height: 20px;
-	width: 400px;
-	position: relative;
-	z-index: -1;
-}
-
-.scroll{
-	overflow: scroll;
-	height: 500px;
-	width: 20em;
-}
 
 .break{height: 3em;}
 .info-background{ margin-top: 3em; position:absolute; width: 100%; height:8em; background-image:url("http://reinhardt.jomc.unc.edu/static/images/nav_bg.png");}
-
-
-.sidebar-item {background-color: #fff; -moz-box-shadow: 0 0 13px #000;
--webkit-box-shadow: 0 0 13px #000;
-box-shadow: 0 0 13px #000; margin-bottom: 17px;}
-.sidebar-holder {width:79%; padding:11%}
 
 .submenu {position: absolute; top: 0px; left: -100%; background-color: #369; width: 100%;}
 .submenu ul {margin:0px;}
 .submenu ul li {margin:auto 0px;}
 .submenu ul li a {width: 100%; display: block; line-height: 1.875em; border-bottom:1px solid black;}
-.sidebar-next {margin-top: 17px;}
-#resources-box img {background-color:#fff; border: 1px solid #666; -moz-box-shadow: 0 0 13px #000;
--webkit-box-shadow: 0 0 13px #000;
-box-shadow: 0 0 13px #000;}
-#bottom-resources {margin-top: 13px;}
-#research-box {height: 200px; background-image: url(../images/content-top.png); background-repeat:repeat-x; background-color: #fff; padding: 3.5em 0.5em 0.5em 0.5em; -moz-box-shadow: 0 0 13px #000;
--webkit-box-shadow: 0 0 13px #000;
-box-shadow: 0 0 13px #000;}
-#footer {/*margin: 70px 0px; height: 120px;*/ background-image:url(../images/nav_bg.png); padding: 0px 20px;}
+
+#footer {/*margin: 70px 0px; height: 120px;*/  background-image:url(../images/nav_bg.png); padding: 0px 20px;}
 #footer-logo {float: left; color: #FFF; width:200px;padding:1%;}
 #footer-links {float: right; text-align: right;}
 #footer-links ul {}
@@ -187,40 +142,6 @@ box-shadow: 0 0 13px #000;}
 
 .panoHead{width: 100%; height: 250px; z-index: 0; position:absolute; margin-left: -12px; }
 .invisible{opacity: .00; position: absolute; z-index: -1;}
-
-.article_interactive_img_right{
-	float: right;
-	display: inline;
-	clear: both;
-	
-}
-
-.article_interactive_img_left{
-	float: left;
-	display: inline;
-	clear: both;
-	
-}
-
-.spacer {
-	position:relative;
-	background: #000;
-	height: 50px;
-}
-
-
-
-
-#id_search {
-	width:100%;
-}
-
-#id_tags {
-	width:100%;
-	height:60px;
-}
-
-
 
 
 /*new home styles*/
@@ -238,10 +159,6 @@ height: 100%;
 background-image: url("http://reinhardt.jomc.unc.edu/static/images/nav_bg.png");
 }
 
-#video-div-home {
-	position: relative; z-index: 0;
-	/*	visibility: hidden;*/
-}
 
 #rightFloatBar {
 width: 4.4%;
@@ -254,56 +171,11 @@ height: 100%;
 background-image: url("http://reinhardt.jomc.unc.edu/static/images/nav_bg.png");
 }
 
-
-
-#homePlayBtn{
-	width:130px;
-	height:100px;
-	position:absolute;
-	top:38%;
-	left:46%;
-	z-index:100;
-	
-}
-
-#homePlayBtn:hover {cursor:pointer}
-
-#flex-video {
-	visibility:hidden;
-}
-
-#playStory{width:40%;position:absolute; top:76%;	left:8%;	z-index:100;	overflow:visible;	cursor:pointer;}
-
 #phoneNav{
 	width:100%;
 	height:auto;
 	background-image: url("http://reinhardt.jomc.unc.edu/static/images/nav_bg.png");
 	margin-top:2em;
-}
-
-.phoneNavCat {
-	font-family:Caviar Dreams;
-	font-size: 1.7em;
-	color:#F6F3EE;
-	line-height:1.5em;
-	text-align:center;
-	border-bottom:1px solid #474747;
-}
-
-.phoneNavCat img{
-	margin-top:6px;
-	padding-right:5px;
-	width:25px;
-	height:25px;
-}
-
-.phoneNavStory {
-	font-family:museo-sans-500;
-	font-size:1.2em;
-	color:#d1c8b9;
-	width:100%;
-	margin-bottom:10px;
-	
 }
 
 .phoneNavStory img{
