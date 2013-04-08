@@ -53,6 +53,11 @@ body {
 #logo-li {margin-bottom: 0em; width: 21.68%; height: 160px; display: inline; background-size:30%; float: left;  }
 .logo-background{ margin-top: 60px; position:absolute; width: 100%; height:66%; z-index: -1; background-image:url("http://reinhardt.jomc.unc.edu/static/images/nav_bg.png");}
 div.logo { max-width: 17%; padding-bottom: 6px; }
+
+@media screen and (max-width:1000px) {
+	div.logo { max-width: 25%; padding-bottom: 6px; }
+}
+
 #top-nav-li {text-align: right; margin-top: 100px; width:78.32%; float: left; display: inline; background-color: none; z-index: 10;}
 #top-nav-li ul {}
 #top-nav-li ul li { list-style-type: none; display: inline; border-right: 1px solid #fff; padding:0 1em;}
@@ -112,7 +117,7 @@ box-shadow: 0 0 13px #000;
 -webkit-box-shadow: 0 0 13px #000;
 box-shadow: 0 0 13px #000;
 padding-top: .9em;
-padding-left: 2.5em;
+padding-left: 4.1%;
 padding-bottom: .9em;
 margin-bottom: 1.5em;
 
