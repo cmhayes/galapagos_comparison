@@ -65,8 +65,16 @@ overflow:auto;
 	font-size: 4.1em;
 	color: #29221c;
 	line-height: 1em;
-	margin-top: 3%;
+	margin-top: 35px;
 	margin-left: 5px;
+}
+
+.textHeadLoc {
+	font-family:qhytsdakx;
+	font-size: 3.5em;
+	color: #29221c;
+	line-height: 1em;
+	margin-bottom: 5px;
 }
 
 .textHeadAccordion {
