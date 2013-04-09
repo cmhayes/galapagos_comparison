@@ -1,0 +1,26 @@
+[
+    {
+        "pk": 1,
+        "model": "compare_stats.Galapagos",
+        "fields": {
+            "name": "Galapagos",
+            "birds_in_region": "a",
+            "protected_land": "a",
+            "revenue": "1",
+            "income": "1",
+            "industry": "a",
+            "student_teacher_ratio": "{{ STATIC_URL }}/images/bluePerson.png",
+            "teacher_salary": "1",
+            "literacy_rate": "1",
+            "rainfall": "1",
+            "temperature": "1",
+            "humidity": "1",
+            "elevation": "1",
+            "distance_to_hospital": "1",
+            "percent_of_budget_allocated": "1"
+            
+   
+        }
+    }
+    
+]

@@ -1,8 +1,14 @@
 # Create your views here.
 from compare_stats.models import State
 from django.shortcuts import render, get_object_or_404, redirect, render_to_response
-#from chartit import PivotDataPool, PivotChart
 
-def home(request):
+def home(request, pk):
+    specificState = get_object_or_404(State, id=pk)
+    states = State.objects.all()
+    galapagos = get_object_or_404(Galapagos, id=pk) 
+    context = {
+        'specificState': specificState,
+        'galapagos': galapagos,
+    }
     
-    return render(request, "compare_stats/home.html")
+    return render(request, "compare_stats/home.html", context)

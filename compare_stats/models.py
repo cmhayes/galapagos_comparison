@@ -22,6 +22,13 @@ class State(models.Model):
     # health stats
     distance_to_hospital = models.IntegerField(unique=False, max_length=25)
     percent_of_budget_allocated = models.IntegerField(unique=False, max_length=25)
+    
+    def __unicode__(self):
+        return U'%s %s' %(self.income, self.name)
+    
+    def save(self, *args, **kwargs):
+        self.name = self.name.upper()
+        super(specificState, self).save(*args, **kwargs)
 
 
 class Galapagos(models.Model):
@@ -45,3 +52,10 @@ class Galapagos(models.Model):
     # health stats
     distance_to_hospital = models.IntegerField(unique=False, max_length=25)
     percent_of_budget_allocated = models.IntegerField(unique=False, max_length=25)
+    
+    def __unicode__(self):
+        return U'%s %s' %(self.income, self.name)
+    
+    def save(self, *args, **kwargs):
+        self.name = self.name.upper()
+        super(galapagos, self).save(*args, **kwargs)
