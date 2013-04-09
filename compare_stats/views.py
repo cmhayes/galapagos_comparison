@@ -1,5 +1,5 @@
 # Create your views here.
-from compare_stats.models import State
+from compare_stats.models import State, Galapagos
 from django.shortcuts import render, get_object_or_404, redirect, render_to_response
 
 def home(request, pk):
