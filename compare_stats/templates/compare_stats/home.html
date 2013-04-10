@@ -24,7 +24,15 @@
               facilisi euismod potenti, in dignissim dictum, nonummy pretium. Nisi ornare senectus nam ultricies mattis mauris mi.
               Mus. In. Dui porttitor mauris lectus laoreet aenean class semper phasellus adipiscing.
            </div>
-    {{galapagos.student_teacher_ratio}}
+    
+    {% for specificGalapagos in galapagos %}
+    <img src="{{specificGalapagos.student_teacher_ratio}}" />
+    {% endfor %}
+    
+    {% for specificState in states %}
+    <p>{{specificState.name}}</p>
+    {% endfor %}
+    
 </div>
 
 <ul class="accordion">
