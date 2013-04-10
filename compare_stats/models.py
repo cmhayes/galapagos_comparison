@@ -11,6 +11,7 @@ class State(models.Model):
     income = models.IntegerField(unique=False, max_length=25)
     industry = models.CharField(unique=False, max_length=100)
     # education stats
+    teacher = models.CharField(unique=False, max_length=25)
     student_teacher_ratio = models.CharField(unique=False, max_length=25)
     teacher_salary = models.IntegerField(unique=False, max_length=25)
     literacy_rate = models.IntegerField(unique=False, max_length=25)
@@ -41,6 +42,7 @@ class Galapagos(models.Model):
     income = models.IntegerField(unique=False, max_length=25)
     industry = models.CharField(unique=False, max_length=100)
     # education stats
+    teacher = models.CharField(unique=False, max_length=25)
     student_teacher_ratio = models.CharField(unique=False, max_length=25)
     teacher_salary = models.IntegerField(unique=False, max_length=25)
     literacy_rate = models.IntegerField(unique=False, max_length=25)

@@ -25,13 +25,6 @@
               Mus. In. Dui porttitor mauris lectus laoreet aenean class semper phasellus adipiscing.
            </div>
     
-    {% for specificGalapagos in galapagos %}
-    <img src="{{specificGalapagos.student_teacher_ratio}}" />
-    {% endfor %}
-    
-    {% for specificState in states %}
-    <p>{{specificState.name}}</p>
-    {% endfor %}
     
 </div>
 
@@ -51,18 +44,35 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                <div class="textHeadLoc">State</div>
+                {% for specificState in states %}
+                <div class="textHeadLoc">{{specificState.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Rainfall
+                        {{specificState.rainfall}}
+                        Temperature
+                        {{specificState.temperature}}
+                        Humidity
+                        {{specificState.humidity}}
+                        Elevation
+                        {{specificState.elevation}}
                     </div>
+                {% endfor %}
             </div>
+            
             <div class="six columns">
-                <div class="textHeadLoc">Galapagos</div>
+                {% for specificGalapagos in galapagos %}
+                <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Rainfall
+                        {{specificGalapagos.rainfall}}
+                        Temperature
+                        {{specificGalapagos.temperature}}
+                        Humidity
+                        {{specificGalapagos.humidity}}
+                        Elevation
+                        {{specificGalapagos.elevation}}
                     </div>
+                {% endfor %}
             </div>
         </div> <!-- end split column row -->
               
@@ -82,18 +92,26 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                <div class="textHeadLoc">State</div>
+                {% for specificState in states %}
+                <div class="textHeadLoc">{{specificState.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Protected Land
+                        {{specificState.protected_land}}
+                        Birds in Region
+                        {{specificState.birds_in_region}}   
                     </div>
+                {% endfor %}
             </div>
             <div class="six columns">
-                <div class="textHeadLoc">Galapagos</div>
+                {% for specificGalapagos in galapagos %}
+                <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Protected Land
+                        {{specificGalapagos.protected_land}}
+                        Birds in Region
+                        {{specificGalapagos.birds_in_region}} 
                     </div>
+                {% endfor %}
             </div>
         </div> <!-- end split column row -->
               
@@ -114,18 +132,30 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                <div class="textHeadLoc">State</div>
+                {% for specificState in states %}
+                <div class="textHeadLoc">{{specificState.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Revenue
+                        {{specificState.revenue}}
+                        Income
+                        {{specificState.income}}
+                        Industry
+                        {{specificState.industry}}
                     </div>
+                {% endfor %}
             </div>
             <div class="six columns">
-                <div class="textHeadLoc">Galapagos</div>
+                {% for specificGalapagos in galapagos %}
+                <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Revenue
+                        {{specificGalapagos.revenue}}
+                        Income
+                        {{specificGalapagos.income}}
+                        Industry
+                        {{specificGalapagos.industry}}
                     </div>
+                {% endfor %}
             </div>
         </div> <!-- end split column row -->
               
@@ -147,18 +177,32 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                <div class="textHeadLoc">State</div>
+                {% for specificState in states %}
+                <div class="textHeadLoc">{{specificState.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Student/Teacher Ratio
+                        <img src="{{specificState.teacher}}" width="100"/>
+                        <img src="{{specificState.student_teacher_ratio}}" width="100"/>
+                        Teacher Salaray
+                        {{specificState.teacher_salary}}
+                        Literacy Rate
+                        {{specificState.literacy_rate}}
                     </div>
+                {% endfor %}
             </div>
             <div class="six columns">
-                <div class="textHeadLoc">Galapagos</div>
+                {% for specificGalapagos in galapagos %}
+                <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Student/Teacher Ratio
+                        <img src="{{specificGalapagos.teacher}}" width="100"/>
+                        <img src="{{specificGalapagos.student_teacher_ratio}}" width="100"/>
+                        Teacher Salaray
+                        {{specificGalapagos.teacher_salary}}
+                        Literacy Rate
+                        {{specificGalapagos.literacy_rate}}
                     </div>
+                {% endfor %}
             </div>
         </div> <!-- end split column row -->
               
@@ -180,18 +224,26 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                <div class="textHeadLoc">State</div>
+                {% for specificState in states %}
+                <div class="textHeadLoc">{{specificState.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Distance to Hospital
+                        {{specificState.distance_to_hospital}}
+                        Percent of Budget Allocated
+                        {{specificState.percent_of_budget_allocated}}
                     </div>
+                {% endfor %}
             </div>
             <div class="six columns">
-                <div class="textHeadLoc">Galapagos</div>
+                {% for specificGalapagos in galapagos %}
+                <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-                        volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
+                        Distance to Hospital
+                        {{specificGalapagos.distance_to_hospital}}
+                        Percent of Budget Allocated
+                        {{specificGalapagos.percent_of_budget_allocated}}
                     </div>
+                {% endfor %}
             </div>
         </div> <!-- end split column row -->
               
