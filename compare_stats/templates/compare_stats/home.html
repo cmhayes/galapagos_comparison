@@ -49,12 +49,16 @@
                     <div class="textP">
                         Rainfall
                         {{specificState.rainfall}}
+                        {{specificState.rainfall_text}}
                         Temperature
                         {{specificState.temperature}}
+                        {{specificState.temperature_text}}
                         Humidity
                         {{specificState.humidity}}
+                        {{specificState.humidity_text}}
                         Elevation
                         {{specificState.elevation}}
+                        {{specificState.elevation_text}}
                     </div>
                 {% endfor %}
             </div>
@@ -65,12 +69,16 @@
                     <div class="textP">
                         Rainfall
                         {{specificGalapagos.rainfall}}
+                        {{specificGalapagos.rainfall_text}}
                         Temperature
                         {{specificGalapagos.temperature}}
+                        {{specificGalapagos.temperature_text}}
                         Humidity
                         {{specificGalapagos.humidity}}
+                        {{specificGalapagos.humidity_text}}
                         Elevation
                         {{specificGalapagos.elevation}}
+                        {{specificGalapagos.elevation_text}}
                     </div>
                 {% endfor %}
             </div>
@@ -96,7 +104,8 @@
                 <div class="textHeadLoc">{{specificState.name}}</div>
                     <div class="textP">
                         Protected Land
-                        {{specificState.protected_land}}
+                        {{specificState.protected_land_image}}
+                        {{specificState.protected_land_percentage}}
                         Birds in Region
                         {{specificState.birds_in_region}}   
                     </div>
@@ -107,7 +116,8 @@
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
                         Protected Land
-                        {{specificGalapagos.protected_land}}
+                        {{specificGalapagos.protected_land_image}}
+                        {{specificGalapagos.protected_land_percentage}}
                         Birds in Region
                         {{specificGalapagos.birds_in_region}} 
                     </div>
@@ -139,6 +149,7 @@
                         {{specificState.revenue}}
                         Income
                         {{specificState.income}}
+                        {{specificState.income_text}}
                         Industry
                         {{specificState.industry}}
                     </div>
@@ -152,6 +163,7 @@
                         {{specificGalapagos.revenue}}
                         Income
                         {{specificGalapagos.income}}
+                        {{specificGalapagos.income_text}}
                         Industry
                         {{specificGalapagos.industry}}
                     </div>
@@ -187,6 +199,7 @@
                         {{specificState.teacher_salary}}
                         Literacy Rate
                         {{specificState.literacy_rate}}
+                        {{specificState.literacy_rate_text}}
                     </div>
                 {% endfor %}
             </div>
@@ -201,6 +214,7 @@
                         {{specificGalapagos.teacher_salary}}
                         Literacy Rate
                         {{specificGalapagos.literacy_rate}}
+                        {{specificGalapagos.literacy_rate_text}}
                     </div>
                 {% endfor %}
             </div>
@@ -229,8 +243,10 @@
                     <div class="textP">
                         Distance to Hospital
                         {{specificState.distance_to_hospital}}
+                        {{specificState.distance_to_hospital_text}}
                         Percent of Budget Allocated
                         {{specificState.percent_of_budget_allocated}}
+                        {{specificState.percent_of_budget_allocated_text}}
                     </div>
                 {% endfor %}
             </div>
@@ -240,8 +256,10 @@
                     <div class="textP">
                         Distance to Hospital
                         {{specificGalapagos.distance_to_hospital}}
+                        {{specificGalapagos.distance_to_hospital_text}}
                         Percent of Budget Allocated
                         {{specificGalapagos.percent_of_budget_allocated}}
+                        {{specificGalapagos.percent_of_budget_allocated_text}}
                     </div>
                 {% endfor %}
             </div>
