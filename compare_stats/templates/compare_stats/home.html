@@ -194,8 +194,26 @@
                     <div class="textP">
                         Student/Teacher Ratio
                         <img src="{{specificState.teacher}}" width="100"/>
-                        <img src="{{specificState.student_teacher_ratio}}" width="100"/>
-                        Teacher Salaray
+                        
+                        <div id="images"></div>
+                        
+                        <script>
+                        studentNum=(parseFloat('{{specificState.student_teacher_ratio}}'));
+                        
+                        var studentImg=document.getElementById('images'),
+                            imagePath = '{{ STATIC_URL }}images/greenPerson.png',
+                            img;
+                            
+                        for (var i=0; i<studentNum; i++){
+                            img = new Image();
+                            img.src = imagePath;
+                            studentImg.appendChild(img);
+                            //document.write(img);
+                        }
+                        </script>
+                        
+                        {{specificState.student_teacher_ratio}}
+                        Teacher Salary
                         {{specificState.teacher_salary}}
                         Literacy Rate
                         {{specificState.literacy_rate}}
@@ -209,8 +227,27 @@
                     <div class="textP">
                         Student/Teacher Ratio
                         <img src="{{specificGalapagos.teacher}}" width="100"/>
+                        
+                        <div id="imagesB"></div>
+                        
+                        <script>
+                        studentNumB=(parseFloat('{{specificGalapagos.student_teacher_ratio}}'));
+                        
+                        var studentImgB=document.getElementById('imagesB'),
+                            imagePath = '{{ STATIC_URL }}images/greenPerson.png',
+                            img;
+                            
+                        for (var i=0;i<studentNumB; i++){
+                            img = new Image();
+                            img.src = imagePath;
+                            studentImgB.appendChild(img);
+                            //document.write(studentImg);
+                        }
+                        </script>
+                        
+                        
                         <img src="{{specificGalapagos.student_teacher_ratio}}" width="100"/>
-                        Teacher Salaray
+                        Teacher Salary
                         {{specificGalapagos.teacher_salary}}
                         Literacy Rate
                         {{specificGalapagos.literacy_rate}}
@@ -277,6 +314,8 @@
 
     </div>
 </div>
+
+                        
 
 
 {% endblock %}

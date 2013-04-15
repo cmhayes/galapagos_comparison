@@ -44,7 +44,7 @@ body {
 	height:100%;
 	background-image:url("http://reinhardt.jomc.unc.edu/media/uploads/background-video/jpg/BG_Pelican_Sunset.jpg");
 	background-repeat:repeat-y;
-	z-index:0;
+	 z-index:0;
 	position:absolute;
 	top:0;
 	left:0;
@@ -57,6 +57,8 @@ div.logo { max-width: 17%; padding-bottom: 6px; }
 @media screen and (max-width:1000px) {
 	div.logo { max-width: 25%; padding-bottom: 6px; }
 }
+
+img{display:inline;}
 
 #top-nav-li {text-align: right; margin-top: 100px; width:78.32%; float: left; display: inline; background-color: none; z-index: 10;}
 #top-nav-li ul {}

@@ -14,7 +14,7 @@ class State(models.Model):
     industry = models.CharField(unique=False, max_length=100)
     # education stats
     teacher = models.CharField(unique=False, max_length=25)
-    student_teacher_ratio = models.CharField(unique=False, max_length=25)
+    student_teacher_ratio = models.IntegerField(unique=False, max_length=25)
     student_teacher_text = models.CharField(unique=False, max_length=25)
     teacher_salary = models.IntegerField(unique=False, max_length=25)
     literacy_rate = models.IntegerField(unique=False, max_length=25)
