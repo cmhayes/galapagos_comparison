@@ -1,0 +1,70 @@
+[
+    {
+        "pk": 1,
+        "model": "compare_stats.State",
+        "fields": {
+            "name": "Alabama",
+            "birds_in_region": "a",
+            "protected_land_image": "a",
+            "protected_land_percentage": "a",
+            "revenue": "1",
+            "income": "1",
+            "income_text": "text",
+            "industry": "a",
+            "teacher": "static/images/bluePerson.png",
+            "student_teacher_ratio": "16",
+            "student_teacher_text": "text",
+            "teacher_salary": "1",
+            "literacy_rate": "1",
+            "literacy_rate_text": "a",
+            "rainfall": "1",
+            "rainfall_text": "text",
+            "temperature": "1",
+            "temperature_text": "64.7%",
+            "humidity": "1",
+            "humidity_text": "text",
+            "elevation": "1",
+            "elevation_text": "text",
+            "distance_to_hospital": "1",
+            "distance_to_hospital_text": "text",
+            "percent_of_budget_allocated": "1",
+            "percent_of_budget_allocated_text": "text"
+
+        }
+    },
+    
+    {
+        "pk": 2,
+        "model": "compare_stats.State",
+        "fields": {
+            "name": "Arizona",
+            "birds_in_region": "a",
+            "protected_land_image": "a",
+            "protected_land_percentage": "a",
+            "revenue": "1",
+            "income": "1",
+            "income_text": "text",
+            "industry": "a",
+            "teacher": "static/images/bluePerson.png",
+            "student_teacher_ratio": "3",
+            "student_teacher_text": "text",
+            "teacher_salary": "1",
+            "literacy_rate": "1",
+            "literacy_rate_text": "a",
+            "rainfall": "1",
+            "rainfall_text": "text",
+            "temperature": "1",
+            "temperature_text": "61.3%",
+            "humidity": "1",
+            "humidity_text": "text",
+            "elevation": "1",
+            "elevation_text": "text",
+            "distance_to_hospital": "1",
+            "distance_to_hospital_text": "text",
+            "percent_of_budget_allocated": "1",
+            "percent_of_budget_allocated_text": "text"
+
+        }
+    }
+    
+]

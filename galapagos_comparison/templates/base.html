@@ -128,5 +128,32 @@
 
 <!-- Initialize JS Plugins -->
 <script src="{{STATIC_URL}}js/app.js"></script>
+<script>
+    $("#selectState").change(function() {
+    	var selectedId = $('option:selected', this).attr('id');
+    	if (selectedId === 'default') { selectedId = 1;	};
+        $.ajax({
+            url: '{{STATIC_URL}}js/states.json',
+            dataType: 'json',
+            success: function(data) {
+            	$("#state-name").html("State: " + data[selectedId-1].fields.name);
+                for(i=0; i<data.length; i++){
+                    console.log(data[i].fields.name)
+                };
+            },
+            error: function() { console.log("failure to load json file") }
+        });
+
+        // var stateSlected = '';
+        // $("#selectState option:selected").each(function() {
+        //  stateSlected += $(this)[0].value;
+        // });
+        // var url = "/" + stateSlected;
+
+        // $.post(url, function(data){
+
+        // });
+    });
+</script>
 
 </html>

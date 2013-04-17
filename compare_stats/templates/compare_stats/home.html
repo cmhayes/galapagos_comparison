@@ -23,7 +23,13 @@
               vehicula lacus conubia diam praesent fusce ridiculus ultrices accumsan primis condimentum magnis molestie proin
               facilisi euismod potenti, in dignissim dictum, nonummy pretium. Nisi ornare senectus nam ultricies mattis mauris mi.
               Mus. In. Dui porttitor mauris lectus laoreet aenean class semper phasellus adipiscing.
-           </div>
+    </div>
+    <select id="selectState">
+        <option id="default">--SELECT--</option>
+        {% for i in states %}
+            <option id="{{i.pk}}">{{i.name}}</option>
+        {% endfor %}
+    </select>
     
     
 </div>
@@ -44,23 +50,19 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                {% for specificState in states %}
-                <div class="textHeadLoc">{{specificState.name}}</div>
-                    <div class="textP">
-                        Rainfall
-                        {{specificState.rainfall}}
-                        {{specificState.rainfall_text}}
+                
+                <div id="state-name" class="textHeadLoc"></div>
+                    <div id="state-weather" class="textP">
+                        <h4>Rainfall</h4>
+                        
                         Temperature
-                        {{specificState.temperature}}
-                        {{specificState.temperature_text}}
+                        
                         Humidity
-                        {{specificState.humidity}}
-                        {{specificState.humidity_text}}
+                      
                         Elevation
-                        {{specificState.elevation}}
-                        {{specificState.elevation_text}}
+                       
                     </div>
-                {% endfor %}
+             
             </div>
             
             <div class="six columns">
@@ -316,6 +318,4 @@
 </div>
 
                         
-
-
 {% endblock %}
