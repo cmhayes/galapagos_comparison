@@ -129,6 +129,7 @@
 <!-- Initialize JS Plugins -->
 <script src="{{STATIC_URL}}js/app.js"></script>
 <script>
+	//$('[id^="state"]').hide();
     $("#selectState").change(function() {
     	var selectedId = $('option:selected', this).attr('id');
     	if (selectedId === 'default') { selectedId = 1;	};
@@ -136,7 +137,9 @@
             url: '{{STATIC_URL}}js/states.json',
             dataType: 'json',
             success: function(data) {
-            	$("#state-name").html("State: " + data[selectedId-1].fields.name);
+            	$("[id^=state-name]").html(data[selectedId-1].fields.name);
+            	$("[id^=state-rainfall]").html(data[selectedId-1].fields.rainfall);
+            	$("[id^=state-teacher-image]").html("<img src='" + data[selectedId-1].fields.teacher + "' width='100px' />");
                 for(i=0; i<data.length; i++){
                     console.log(data[i].fields.name)
                 };

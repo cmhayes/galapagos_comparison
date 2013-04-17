@@ -54,12 +54,12 @@
                 <div id="state-name" class="textHeadLoc"></div>
                     <div id="state-weather" class="textP">
                         <h4>Rainfall</h4>
+                            <span id="state-rainfall"></span>
+                        <h4>Temperature</h4>
                         
-                        Temperature
-                        
-                        Humidity
+                        <h4>Humidity</h4>
                       
-                        Elevation
+                        <h4>Elevation</h4>
                        
                     </div>
              
@@ -102,16 +102,15 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                {% for specificState in states %}
-                <div class="textHeadLoc">{{specificState.name}}</div>
+                
+                <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
                         Protected Land
-                        {{specificState.protected_land_image}}
-                        {{specificState.protected_land_percentage}}
+                        
                         Birds in Region
-                        {{specificState.birds_in_region}}   
+                          
                     </div>
-                {% endfor %}
+            
             </div>
             <div class="six columns">
                 {% for specificGalapagos in galapagos %}
@@ -144,18 +143,17 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                {% for specificState in states %}
-                <div class="textHeadLoc">{{specificState.name}}</div>
+                
+                <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
                         Revenue
-                        {{specificState.revenue}}
+                       
                         Income
-                        {{specificState.income}}
-                        {{specificState.income_text}}
+                        
                         Industry
-                        {{specificState.industry}}
+                        
                     </div>
-                {% endfor %}
+         
             </div>
             <div class="six columns">
                 {% for specificGalapagos in galapagos %}
@@ -191,37 +189,32 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                {% for specificState in states %}
-                <div class="textHeadLoc">{{specificState.name}}</div>
+                
+                <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
                         Student/Teacher Ratio
-                        <img src="{{specificState.teacher}}" width="100"/>
+                       <span id="state-teacher-image"></span>
                         
                         <div id="images"></div>
                         
                         <script>
-                        studentNum=(parseFloat('{{specificState.student_teacher_ratio}}'));
+                        // studentNum=(parseFloat('{{specificState.student_teacher_ratio}}'));
                         
-                        var studentImg=document.getElementById('images'),
-                            imagePath = '{{ STATIC_URL }}images/greenPerson.png',
-                            img;
+                        // var studentImg=document.getElementById('images'),
+                        //     imagePath = '{{ STATIC_URL }}images/greenPerson.png',
+                        //     img;
                             
-                        for (var i=0; i<studentNum; i++){
-                            img = new Image();
-                            img.src = imagePath;
-                            studentImg.appendChild(img);
-                            //document.write(img);
-                        }
+                        // for (var i=0; i<studentNum; i++){
+                        //     img = new Image();
+                        //     img.src = imagePath;
+                        //     studentImg.appendChild(img);
+                        //     //document.write(img);
+                        // }
                         </script>
                         
-                        {{specificState.student_teacher_ratio}}
-                        Teacher Salary
-                        {{specificState.teacher_salary}}
-                        Literacy Rate
-                        {{specificState.literacy_rate}}
-                        {{specificState.literacy_rate_text}}
+                       
                     </div>
-                {% endfor %}
+               
             </div>
             <div class="six columns">
                 {% for specificGalapagos in galapagos %}
@@ -277,17 +270,17 @@
         <!--split column for info display -->      
         <div class="row">
             <div class="six columns">
-                {% for specificState in states %}
-                <div class="textHeadLoc">{{specificState.name}}</div>
+              
+                <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
                         Distance to Hospital
-                        {{specificState.distance_to_hospital}}
+                        <!-- {{specificState.distance_to_hospital}} -->
                         {{specificState.distance_to_hospital_text}}
                         Percent of Budget Allocated
-                        {{specificState.percent_of_budget_allocated}}
-                        {{specificState.percent_of_budget_allocated_text}}
+                        <!-- {{specificState.percent_of_budget_allocated}} -->
+                        <!-- {{specificState.percent_of_budget_allocated_text}} -->
                     </div>
-                {% endfor %}
+                
             </div>
             <div class="six columns">
                 {% for specificGalapagos in galapagos %}
