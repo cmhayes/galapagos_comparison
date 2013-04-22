@@ -12,25 +12,20 @@
                 
 <div id="info-box">
     <div class="textHead">Galapagos Comparison</div>
-    <div class="textPHead">Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-              volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
-              suscipit senectus blandit facilisi, phasellus fringilla. Dictum, fringilla torquent litora. Nulla velit.
-              Vel mus. Accumsan tincidunt molestie Ridiculus consectetuer lacinia fringilla lectus mattis at nisl fames Ad.
-              Aenean fames ultricies malesuada duis.
-
-              Neque facilisis malesuada placerat interdum. Pede tellus augue faucibus. Montes duis netus diam torquent aliquet
-              nulla. Donec tortor pharetra consectetuer curae; ac ultricies sagittis sagittis duis dolor sapien parturient justo
-              vehicula lacus conubia diam praesent fusce ridiculus ultrices accumsan primis condimentum magnis molestie proin
-              facilisi euismod potenti, in dignissim dictum, nonummy pretium. Nisi ornare senectus nam ultricies mattis mauris mi.
-              Mus. In. Dui porttitor mauris lectus laoreet aenean class semper phasellus adipiscing.
-    </div>
-    <select id="selectState">
-        <option id="default">--SELECT--</option>
+    <div class="textPHead">Located in the Pacific Ocean off the coast of Ecuador, the Galapagos Islands is known for its
+    rich biodiversity that inspired Charles Darwin's theory of evolution.  The volcanic archipelago consists of 18 main
+    islands and is one of the few places on Earth that has remained largely untouched by human inhabitants, as 97% is national park. 
+	<br /><br />
+    Curious to how the Galapagos compares to your state?  Simply select your state from the drop-down menu below and see how the
+    Galapagos stacks up with regard to biodiversity, economics, education, weather and health. 
+    
+    <select class="selectState">
+        <option id="default">-- SELECT YOUR STATE --</option>
         {% for i in states %}
             <option id="{{i.pk}}">{{i.name}}</option>
         {% endfor %}
     </select>
-    
+    </div>
     
 </div>
 
@@ -41,11 +36,15 @@
                 <span class="textHeadAccordion">Weather</span>
             </div>
             <div class="content">
-              <div class="textP">Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-              volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
-              suscipit senectus blandit facilisi, phasellus fringilla. Dictum, fringilla torquent litora. Nulla velit.
-              Vel mus. Accumsan tincidunt molestie Ridiculus consectetuer lacinia fringilla lectus mattis at nisl fames Ad.
-              Aenean fames ultricies malesuada duis.</div>
+              <div class="textP">While the Galapagos is located on the Equator, the Humboldt Current carries cooler water to
+	      the islands, translating to a moist, often rainy, climate.  In addition to frequent rain and high humidity, the
+	      Galapagos is often affected by El Nino events, which occur every 3-7 years and are associated with warm water
+	      temperatures, a depletion of nutrients in the water and a rise in the sea level.  For most years, the cooler season,
+	      which is referred to as garua, runs from June to November, while the warm season stretches from December to May.
+	      Because the islands vary in altitude, location and terrain, the weather varies as well. 
+		<br /><br />
+              Similarly, because the United States has such varied landscapes and regions, the climate and weather varies substantially.
+	      While certain states frequently receive snow and rain, others are characterized by extensive dry seasons and excessive heat.</div>
         
         <!--split column for info display -->      
         <div class="row">
@@ -85,11 +84,20 @@
                 <span class="textHeadAccordion">Biodiversity</span>
             </div>
             <div class="content">
-              <div class="textP">Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-              volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
-              suscipit senectus blandit facilisi, phasellus fringilla. Dictum, fringilla torquent litora. Nulla velit.
-              Vel mus. Accumsan tincidunt molestie Ridiculus consectetuer lacinia fringilla lectus mattis at nisl fames Ad.
-              Aenean fames ultricies malesuada duis.</div>
+              <div class="textP">Lauded for being a "natural laboratory", the Galapagos Islands is home to some of the highest
+	      levels of endemism in the world.  80% of land birds, 97% of reptiles and land mammals, 20% of marine species,
+	      and more than 30% of plants found on the islands are endemic and are considered some of the most valuable assets
+	      of the islands.  However, due to exponential growth of residents, vehicles and ships, the Ecuadorian Government
+	      issued Presidential Decree N 270 in April 2007, declaring that the Galapagos Archipelago is at risk and its conservation
+	      is a national priority.  The Galapagos Report of 2009-2010 reiterated the government's sentiment, concluding: 
+		<br /><br />
+              "Galapagos is not a paradise separate from the rest of the world.  It is a constellation of very fragile ecosystems
+	      that now requires special care and attention to ensure that the forces of globalization do not overcome its capacity
+	      to assimilate, adapt, and recuperate from natural and human-made disturbances." (Tapia, et. al, p.12)
+		<br /><br />
+              The United States, on the other hand, only has 27.08% of its land marked as nationally protected area.  Despite the
+	      disparity in percentages, the United States also faces conservation issues.  In fact, the Nature Conservancy concluded
+	      that in one of every four states, more than 10% of native species are at risk. </div>
               
         <!--split column for info display -->      
         <div class="row">
@@ -126,11 +134,22 @@
                 <span class="textHeadAccordion">Economics</span>
             </div>
             <div class="content">
-              <div class="textP">Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-              volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
-              suscipit senectus blandit facilisi, phasellus fringilla. Dictum, fringilla torquent litora. Nulla velit.
-              Vel mus. Accumsan tincidunt molestie Ridiculus consectetuer lacinia fringilla lectus mattis at nisl fames Ad.
-              Aenean fames ultricies malesuada duis.</div>
+              <div class="textP">As it becomes an increasingly popular vacation destination, the Galapagos relies heavily on
+	      tourism, which comprises 53% of its revenue.  Many of the most successful residents are those who own souvenir
+	      shops close to the shore near cruise ship docks and the Charles Darwin Research Station.  In a survey conducted
+	      by the Charles Darwin Foundation in 2009 of 100 business owners in Puerto Ayora - the largest city in the Galapagos -
+	      the general consensus was made that employers would rather hire employees from the mainland rather than individuals
+	      native to the Galapagos because "local workers charge more and don't work well."  (Villarreal & Grenier, p. 115).
+	      In general, researchers and academics alike have concluded that the Galapagos economy still has much room for improvement
+	      and growth.  As one researcher articulates: 
+		<br /><br />
+              "There appears to be no integration of the industry, its employees, and its economic trajectory into a long - term
+	      vision that values sustainable and island-appropriate development." (Villarreal & Grenier, pg. 120)
+		<br /><br />
+              While the Galapagos relies almost entirely on one industry to generate revenues and jobs for its residents, the United
+	      States offers more variety, generating significant revenues from numerous industries, including finance, insurance,
+	      real estate, retail trade, educational services and manufacturing.  The United States also generates significantly
+	      larger revenues than the Galapagos and boasts a higher median household income. </div>
               
         <!--split column for info display -->      
         <div class="row">
@@ -138,12 +157,12 @@
                 
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
-                        Revenue
-				<span id="state-revenue"></span>
-                        Income
-				<span id="state-income_text"></span>
-				<span id="state-income"></span>
-                        Industry
+                        <h4>Revenue</h4>
+				<span class ="textItems">$<span id="state-revenue"></span></span>
+                        <h4>Income</h4>
+				<span class ="textItems">$<span id="state-income"></span>
+				<span id="state-income_text"></span></span>
+                        <h4>Industry</h4>
 				<img src="{{ STATIC_URL }}images/galapagosGraphs/statesLegend.png" />
 				<span id="state-industry"></span>
                     </div>
@@ -153,12 +172,12 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Revenue
-                        {{specificGalapagos.revenue}}
-                        Income
-                        {{specificGalapagos.income}}
-                        {{specificGalapagos.income_text}}
-                        Industry
+                        <h4>Revenue</h4>
+                        <span class ="textItems">${{specificGalapagos.revenue}}</span>
+                        <h4>Income</h4>
+                        <span class ="textItems">${{specificGalapagos.income}}
+                        {{specificGalapagos.income_text}}</span>
+                        <h4>Industry</h4>
 			<img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" />
                         {{specificGalapagos.industry}}
                     </div>
@@ -175,11 +194,13 @@
                 <span class="textHeadAccordion">Education</span>
             </div>
             <div class="content">
-              <div class="textP">Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-              volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
-              suscipit senectus blandit facilisi, phasellus fringilla. Dictum, fringilla torquent litora. Nulla velit.
-              Vel mus. Accumsan tincidunt molestie Ridiculus consectetuer lacinia fringilla lectus mattis at nisl fames Ad.
-              Aenean fames ultricies malesuada duis.</div>
+              <div class="textP">The United States (99%) and the Galapagos (98.7%) boast similarly high levels of literary and
+	      low student-teacher ratios.  However, the numbers do not accurately paint the full picture of the education system
+	      in the Galapagos.  Currently, there are only 20 educational institutions in the Galapagos serving roughly 5,200
+	      primary and secondary students.  Many problems have plagued the education system on the islands, including a weak
+	      teacher base, weak school infrastructure, and the absence of a voice in civil society addressing the educational
+	      needs and coordinating progressive initiatives.  In this regard, the Galapagos is far behind the United States in
+	      education and could gain from reforming its current system.</div>
               
         <!--split column for info display -->      
         <div class="row">
@@ -256,11 +277,14 @@
                 <span class="textHeadAccordion">Health</span>
             </div>
             <div class="content">
-              <div class="textP">Penatibus Porttitor. Hymenaeos ut urna. Posuere interdum adipiscing curabitur gravida
-              volutpat aptent vestibulum. Hendrerit hymenaeos suscipit. Iaculis enim aenean pellentesque rhoncus quisque
-              suscipit senectus blandit facilisi, phasellus fringilla. Dictum, fringilla torquent litora. Nulla velit.
-              Vel mus. Accumsan tincidunt molestie Ridiculus consectetuer lacinia fringilla lectus mattis at nisl fames Ad.
-              Aenean fames ultricies malesuada duis.</div>
+              <div class="textP">Some of the largest discrepancies in the quality of life in the Galapagos and in the United States
+	      stem from the disparities in the quality of health care.  While the United States boasts numerous doctors, advanced
+	      equipment, and clean facilities, the Galapagos lacks all three elements.  In a 2009-2010 report on the economic and
+	      social state of the Galapagos, researchers discovered: 
+		<br /><br />
+              "Most of those surveyed agreed that they do not trust doctors working in Galapagos, and that 'any illness more serious
+	      than a cold should be treated on the mainland.' All agreed that health care in Galapagos is poor and more should be done
+	      to attract doctors and specialists to the islands." (Villarreal & Grenier, p. 118)</div>
               
         <!--split column for info display -->      
         <div class="row">

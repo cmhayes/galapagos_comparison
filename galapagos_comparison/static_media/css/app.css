@@ -125,6 +125,9 @@ margin-bottom: 1.5em;
 
 }
 
+#state-income_text{padding-left: 10px; position: absolute; margin-bottom:-18px; width: 60px;}
+
+
 
 .break{height: 3em;}
 .info-background{ margin-top: 3em; position:absolute; width: 100%; height:8em; background-image:url("http://reinhardt.jomc.unc.edu/static/images/nav_bg.png");}
