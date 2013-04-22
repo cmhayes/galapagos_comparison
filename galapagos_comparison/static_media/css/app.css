@@ -153,6 +153,8 @@ margin-bottom: 1.5em;
 .panoHead{width: 100%; height: 250px; z-index: 0; position:absolute; margin-left: -12px; }
 .invisible{opacity: .00; position: absolute; z-index: -1;}
 
+.spacer{ padding-left: 6px; padding-right: 18px;}
+.iconSpace{padding-right: 10px;}
 
 /*new home styles*/
 
