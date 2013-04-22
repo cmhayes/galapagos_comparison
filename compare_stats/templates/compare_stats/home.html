@@ -65,12 +65,12 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Rainfall
+                        <h4>Rainfall</h4>
                         {{specificGalapagos.rainfall}}
                         {{specificGalapagos.rainfall_text}}
-                        Temperature
+                        <h4>Temperature</h4>
                         {{specificGalapagos.temperature}}
-                        Humidity
+                        <h4>Humidity</h4>
                         {{specificGalapagos.humidity}}
                     </div>
                 {% endfor %}
@@ -178,7 +178,7 @@
                         <span class ="textItems">${{specificGalapagos.income}}
                         {{specificGalapagos.income_text}}</span>
                         <h4>Industry</h4>
-			<img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" />
+			            <img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" />
                         {{specificGalapagos.industry}}
                     </div>
                 {% endfor %}
@@ -236,18 +236,18 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Student/Teacher Ratio
-                        <img src="{{specificGalapagos.teacher}}" width="100"/>
-                        
-                        <div id="imagesB"></div>
+                        <h4>Student/Teacher Ratio: {{specificGalapagos.student_teacher_ratio}}:1</h4>
+                        <div id="student_teacher_ratio">
+                            <img src="{{specificGalapagos.teacher}}" width="75px"/><span style="font-size:48px;">:</span> 
+                            <span id="imagesB"></span>
+                        </div>
                         
                         <script>
 
                         studentNumB=(parseFloat('{{specificGalapagos.student_teacher_ratio}}'));
                         for (i=0; i<studentNumB; i++) {
-                        $("#imagesB").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='100px' margin='0' padding='0' />")
+                        $("#imagesB").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='25px' margin='0' padding='0' />")
                         };
-                        alert({{specificGalapagos.industry}});
                         // var studentImgB=document.getElementById('imagesB'),
                         //     imagePath = '{{ STATIC_URL }}images/greenPerson.png',
                         //     img;

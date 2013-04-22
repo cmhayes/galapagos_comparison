@@ -16,21 +16,16 @@
             "student_teacher_text": "text",
             "teacher_salary": "1",
             "literacy_rate": "1",
-            "literacy_rate_text": "a",
             "rainfall": "1",
             "rainfall_text": "text",
             "temperature": "1",
-            "temperature_text": "text",
             "humidity": "1",
-            "humidity_text": "text",
-            "elevation": "1",
-            "elevation_text": "text",
-            "distance_to_hospital": "1",
-            "distance_to_hospital_text": "text",
-            "percent_of_budget_allocated": "1",
-            "percent_of_budget_allocated_text": "text"
-            
-   
+            "health_budget": "1",
+            "health_budget_text": "text",
+            "health_expenditure": "1",
+            "health_expenditure_text": "text",
+            "hospitals_per_person": "1",
+            "hospitals_per_person_text": "text"
         }
     }
     

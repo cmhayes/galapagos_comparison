@@ -139,13 +139,13 @@ $(".accordion").hide();
             	var studentNum = parseInt(t.student_teacher_ratio);
             	$("[id^=state-name]").html(t.name);
             	$("[id^=state-rainfall]").html(t.rainfall);
-		$("[id^=state-revenue]").html(t.revenue);
-		$("[id^=state-income]").html(t.income);
-		$("[id^=state-income_text]").html("<img src='" + t.income_text + "' width='60px'/>");
-		$("[id^=state-industry]").html("<img src='" + t.industry + "' />");
+				$("[id^=state-revenue]").html(t.revenue);
+				$("[id^=state-income]").html(t.income);
+				$("[id^=state-income_text]").html("<img src='" + t.income_text + "' width='60px'/>");
+				$("[id^=state-industry]").html("<img src='" + t.industry + "' />");
             	$("[id^=state-teacher-image]").html("<img src='" + t.teacher + "' width='100px' />");
     			for (i=0; i<studentNum; i++) {
-					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='100px' margin='0' padding='0' />")
+					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='25px' margin='0' padding='0' />")
     			};	
                 // for(i=0; i<data.length; i++){
                 //     console.log(data[i].fields.name)
