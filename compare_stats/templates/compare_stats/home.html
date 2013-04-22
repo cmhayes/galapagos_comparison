@@ -59,7 +59,6 @@
                         
                         <h4>Humidity</h4>
                       
-                        <h4>Elevation</h4>
                        
                     </div>
              
@@ -69,18 +68,15 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Rainfall
+                        <h4>Rainfall</h4>
                         {{specificGalapagos.rainfall}}
                         {{specificGalapagos.rainfall_text}}
-                        Temperature
+                        <h4>Temperature</h4>
                         {{specificGalapagos.temperature}}
                         {{specificGalapagos.temperature_text}}
-                        Humidity
+                        <h4>Humidity</h4>
                         {{specificGalapagos.humidity}}
                         {{specificGalapagos.humidity_text}}
-                        Elevation
-                        {{specificGalapagos.elevation}}
-                        {{specificGalapagos.elevation_text}}
                     </div>
                 {% endfor %}
             </div>
@@ -105,9 +101,9 @@
                 
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
-                        Protected Land
+                        <h4>Protected Land</h4>
                         
-                        Birds in Region
+                        <h4>Birds in Region</h4>
                           
                     </div>
             
@@ -116,10 +112,10 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Protected Land
+                        <h4>Protected Land</h4>
                         {{specificGalapagos.protected_land_image}}
                         {{specificGalapagos.protected_land_percentage}}
-                        Birds in Region
+                        <h4>Birds in Region</h4>
                         {{specificGalapagos.birds_in_region}} 
                     </div>
                 {% endfor %}
@@ -146,11 +142,11 @@
                 
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
-                        Revenue
+                        <h4>Revenue</h4>
                        
-                        Income
+                        <h4>Income</h4>
                         
-                        Industry
+                        <h4>Industry</h4>
                         
                     </div>
          
@@ -159,12 +155,12 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Revenue
+                        <h4>Revenue</h4>
                         {{specificGalapagos.revenue}}
-                        Income
+                        <h4>Income</h4>
                         {{specificGalapagos.income}}
                         {{specificGalapagos.income_text}}
-                        Industry
+                        <h4>Industry</h4>
                         {{specificGalapagos.industry}}
                     </div>
                 {% endfor %}
@@ -192,7 +188,7 @@
                 
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
-                        Student/Teacher Ratio
+                        <h4>Student/Teacher Ratio</h4>
                        <span id="state-teacher-image"></span>
                         
                         <div id="images"></div>
@@ -220,7 +216,7 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Student/Teacher Ratio
+                        <h4>Student/Teacher Ratio</h4>
                         <img src="{{specificGalapagos.teacher}}" width="100"/>
                         
                         <div id="imagesB"></div>
@@ -242,9 +238,9 @@
                         
                         
                         <img src="{{specificGalapagos.student_teacher_ratio}}" width="100"/>
-                        Teacher Salary
+                        <h4>Teacher Salary</h4>
                         {{specificGalapagos.teacher_salary}}
-                        Literacy Rate
+                        <h4>Literacy Rate</h4>
                         {{specificGalapagos.literacy_rate}}
                         {{specificGalapagos.literacy_rate_text}}
                     </div>
@@ -273,10 +269,8 @@
               
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
-                        Distance to Hospital
-                        <!-- {{specificState.distance_to_hospital}} -->
-                        {{specificState.distance_to_hospital_text}}
-                        Percent of Budget Allocated
+                        
+                        <h4>Percent of Budget Allocated</h4>
                         <!-- {{specificState.percent_of_budget_allocated}} -->
                         <!-- {{specificState.percent_of_budget_allocated_text}} -->
                     </div>
@@ -286,10 +280,8 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Distance to Hospital
-                        {{specificGalapagos.distance_to_hospital}}
-                        {{specificGalapagos.distance_to_hospital_text}}
-                        Percent of Budget Allocated
+                        
+                        <h4>Percent of Budget Allocated</h4>
                         {{specificGalapagos.percent_of_budget_allocated}}
                         {{specificGalapagos.percent_of_budget_allocated_text}}
                     </div>
