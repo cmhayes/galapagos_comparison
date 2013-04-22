@@ -48,10 +48,10 @@
                     	<ul class="topNav">
 				
 				
-					<li><a href="#">STORIES</a></li>	
-					<li><a href="#">LEARN</a></li>
-					<li><a href="{{language}}/about/">ABOUT</a></li>
-					<li style="border:none;"><a href="http://livinggalapagos.org/blog">BLOG</a></li>
+					<li><a href="http://livinggalapagos.org" target="blank">MAIN SITE</a></li>	
+					<li><a href="http://livinggalapagos.org/learn" target="blank">LEARN</a></li>
+					<li><a href="http://livinggalapagos.org/en/about/" target="blank">ABOUT</a></li>
+					<li style="border:none;"><a href="http://livinggalapagos.org/blog" target="blank">BLOG</a></li>
                             
 			    
                         </ul>
@@ -71,11 +71,10 @@
 		<div id="phoneTopNav">
 			<ul class="phoneULtop">
 				
-					<li><a href="#">STORIES</a></li>	
-					<li><a href="#">LEARN</a></li>
-					<li><a href="{{language}}/about/">ABOUT</a></li>
-					<li><a href="{{spanish_link}}">SPANISH</a></li>
-					<li style="border:none;"><a href="http://livinggalapagos.org/blog">BLOG</a></li>  
+					<li><a href="http://livinggalapagos.org" target="blank">MAIN SITE</a></li>	
+					<li><a href="http://livinggalapagos.org/learn" target="blank">LEARN</a></li>
+					<li><a href="http://livinggalapagos.org/en/about/" target="blank">ABOUT</a></li>
+					<li style="border:none;"><a href="http://livinggalapagos.org/blog" target="blank">BLOG</a></li>  
 			</ul>
 		</div>
 		
@@ -106,13 +105,10 @@
         		<div class="footerNav hide-on-phones show-on-tablets">
 				<ul>
 				
-					<li><a href="http://www.facebook.com">FACEBOOK</a></li>
-					<li><a href="http://www.twitter.com">TWITTER</a></li>
-				
-				
-					<li><a href="#">ISSUES</a></li>
-					<li><a href="{{language}}/about/">ABOUT</a></li>
-					<li style="border:none;"><a href="http://livinggalapagos.org/blog">BLOG</a></li>
+					<li><a href="https://www.facebook.com/LivingGalapagos" target="blank">FACEBOOK</a></li>
+					<li><a href="https://twitter.com/livinggalapagos" target="blank">TWITTER</a></li>
+					<li><a href="http://livinggalapagos.org/en/about/" target="blank">ABOUT</a></li>
+					<li style="border:none;"><a href="http://livinggalapagos.org/blog" target="blank">BLOG</a></li>
 					<!--<li style="border:none;"><a href="/{{language}}">LIVING GALAPAGOS  &#169; 2013</a></li>-->
 				</ul>
 			</div>
@@ -131,7 +127,7 @@
 <script src="{{STATIC_URL}}js/app.js"></script>
 <script type="text/javascript">
 $(".accordion").hide();
-    $("#selectState").change(function() {
+    $(".selectState").change(function() {
     	$(".accordion").show();
     	var selectedId = $('option:selected', this).attr('id');
     	if (selectedId === 'default') { selectedId = 1;	};
@@ -143,6 +139,10 @@ $(".accordion").hide();
             	var studentNum = parseInt(t.student_teacher_ratio);
             	$("[id^=state-name]").html(t.name);
             	$("[id^=state-rainfall]").html(t.rainfall);
+		$("[id^=state-revenue]").html(t.revenue);
+		$("[id^=state-income]").html(t.income);
+		$("[id^=state-income_text]").html("<img src='" + t.income_text + "' width='60px'/>");
+		$("[id^=state-industry]").html("<img src='" + t.industry + "' />");
             	$("[id^=state-teacher-image]").html("<img src='" + t.teacher + "' width='100px' />");
     			for (i=0; i<studentNum; i++) {
 					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='100px' margin='0' padding='0' />")
