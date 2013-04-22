@@ -139,11 +139,13 @@
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
                         Revenue
-                       
+				<span id="state-revenue"></span>
                         Income
-                        
+				<span id="state-income_text"></span>
+				<span id="state-income"></span>
                         Industry
-                        
+				<img src="{{ STATIC_URL }}images/galapagosGraphs/statesLegend.png" />
+				<span id="state-industry"></span>
                     </div>
          
             </div>
@@ -157,6 +159,7 @@
                         {{specificGalapagos.income}}
                         {{specificGalapagos.income_text}}
                         Industry
+			<img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" />
                         {{specificGalapagos.industry}}
                     </div>
                 {% endfor %}
