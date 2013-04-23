@@ -107,6 +107,7 @@
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
                         <h4>Protected Land</h4>
+			<img src="state-protected_land_image" />
 				<span class ="textItems"><span id="state-protected_land_percentage"></span>%</span>
                         <h4>Birds in Region</h4>
                           
@@ -121,7 +122,7 @@
                         {{specificGalapagos.protected_land_image}}
                         <span class ="textItems">{{specificGalapagos.protected_land_percentage}}%</span>
                         <h4>Birds in Region</h4>
-                        {{specificGalapagos.birds_in_region}} 
+                        <span class ="textItems">{{specificGalapagos.birds_in_region}}</span> 
                     </div>
                 {% endfor %}
             </div>
@@ -160,7 +161,7 @@
                     <div class="textP">
                         <h4>Revenue</h4>
 				<span class ="textItems">$<span id="state-revenue"></span></span>
-                        <h4>Average Income</h4>
+                        <h4>Average Household Income</h4>
 				<span class ="textItems">$<span id="state-income"></span>
 				<span id="state-income_text"></span></span>
                         <h4>Industry Breakdown</h4>
@@ -175,7 +176,7 @@
                     <div class="textP">
                         <h4>Revenue</h4>
                         <span class ="textItems">${{specificGalapagos.revenue}}</span>
-                        <h4>Average Income</h4>
+                        <h4>Average Household Income</h4>
                         <span class ="textItems">${{specificGalapagos.income}}
                         <img src="{{specificGalapagos.income_text}}" width="60px" /></span>
                         <h4>Industry Breakdown</h4>
@@ -219,7 +220,7 @@
                     <div class="textP">
                         <h4>Student/Teacher Ratio</h4>
                         <span id="state-teacher-image"></span>
-                        <div id="state-student-image"></div>
+                        <span id="state-student-image"></span>
 			<span class ="textItems"><div id="state-student_teacher_text"></div></span>
                         <div id="images"></div>
 			

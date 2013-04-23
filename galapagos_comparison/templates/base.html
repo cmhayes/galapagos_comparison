@@ -183,6 +183,7 @@ $(".accordion").hide();
             	var studentNum = parseInt(t.student_teacher_ratio);
             	$("[id^=state-name]").html(t.name);
             	$("[id^=state-rainfall]").html(t.rainfall);
+				$("#state-protected_land_image").html(t.protected_land_image);
 				$("#state-temperature").html(t.temperature);
 				$("#state-humidity").html(t.humidity);
 				$("#state-revenue").html(t.revenue);
@@ -195,7 +196,7 @@ $(".accordion").hide();
 				$("#state-health_expenditure").html(t.health_expenditure);
 				$("[id^=state-income_text]").html("<img src='" + t.income_text + "' width='60px'/>");
 				$("[id^=state-industry]").html("<img src='" + t.industry + "' />");
-				$("[id^=state-teacher-image]").html("<img src='" + t.teacher + "' width='100px' />");
+				$("[id^=state-teacher-image]").html("<img src='" + t.teacher + "' width='80px' />");
 				for (i=0; i<studentNum; i++) {
 					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='25px' margin='0' padding='0' />")
 					};
