@@ -10,7 +10,7 @@
             "revenue": "1",
             "income": "1",
             "income_text": "text",
-            "industry": "a",
+            "industry": "static/images/galapagosGraphs/galapagosNew.png",
             "teacher": "static/images/bluePerson.png",
             "student_teacher_ratio": "12",
             "student_teacher_text": "text",

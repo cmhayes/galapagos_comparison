@@ -53,10 +53,11 @@
                 <div id="state-name" class="textHeadLoc"></div>
                     <div id="state-weather" class="textP">
                         <h4>Rainfall</h4>
-                            <span id="state-rainfall"></span>
+                            <span class ="textItems"><span id="state-rainfall"></span>"</span>
                         <h4>Temperature</h4>
-                                            
-                        <h4>Humidity</h4>                       
+			    <span class ="textItems"><span id="state-temperature"></span>&deg;F</span>               
+                        <h4>Humidity</h4>
+			    <span class ="textItems"><span id="state-humidity"></span>%</span>
                     </div>
              
             </div>
@@ -67,11 +68,11 @@
                     <div class="textP">
                         <h4>Rainfall</h4>
                         {{specificGalapagos.rainfall}}
-                        {{specificGalapagos.rainfall_text}}
+                        <span class ="textItems">{{specificGalapagos.rainfall_text}}"</span>
                         <h4>Temperature</h4>
-                        {{specificGalapagos.temperature}}
+                        <span class ="textItems">{{specificGalapagos.temperature}}&deg;F</span> 
                         <h4>Humidity</h4>
-                        {{specificGalapagos.humidity}}
+                        <span class ="textItems">{{specificGalapagos.humidity}}%</span>
                     </div>
                 {% endfor %}
             </div>
@@ -105,9 +106,9 @@
                 
                 <div id="state-name" class="textHeadLoc"></div>
                     <div class="textP">
-                        Protected Land
-                        
-                        Birds in Region
+                        <h4>Protected Land</h4>
+				<span class ="textItems"><span id="state-protected_land_percentage"></span>%</span>
+                        <h4>Birds in Region</h4>
                           
                     </div>
             
@@ -116,10 +117,10 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        Protected Land
+                        <h4>Protected Land</h4>
                         {{specificGalapagos.protected_land_image}}
-                        {{specificGalapagos.protected_land_percentage}}
-                        Birds in Region
+                        <span class ="textItems">{{specificGalapagos.protected_land_percentage}}%</span>
+                        <h4>Birds in Region</h4>
                         {{specificGalapagos.birds_in_region}} 
                     </div>
                 {% endfor %}
@@ -178,8 +179,16 @@
                         <span class ="textItems">${{specificGalapagos.income}}
                         {{specificGalapagos.income_text}}</span>
                         <h4>Industry</h4>
-			            <img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" />
-                        {{specificGalapagos.industry}}
+			            <!--<img src="{{ STATIC_URL }}images/galpLegend/transport.png" /><br />
+				    <img src="{{ STATIC_URL }}images/galpLegend/vehicle.png" /><br />
+				    <img src="{{ STATIC_URL }}images/galpLegend/agriculture.png" /><br />
+				    <img src="{{ STATIC_URL }}images/galpLegend/public.png" /><br />
+				    <img src="{{ STATIC_URL }}images/galpLegend/construction.png" /><br />
+				    <img src="{{ STATIC_URL }}images/galpLegend/other.png" />-->
+				    <img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" />
+			<div class="graphSpace">
+                        <img src="{{specificGalapagos.industry}}" />
+			</div>
                     </div>
                 {% endfor %}
             </div>
