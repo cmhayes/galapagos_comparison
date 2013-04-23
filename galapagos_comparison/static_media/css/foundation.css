@@ -1103,9 +1103,9 @@ ul.orbit-bullets li.active.has-thumb {
 	.reveal-modal {
 		visibility: hidden;
 		top: 100px; 
-		left: 50%;
-		margin-left: -300px;
-		width: 520px;
+		left: 10%;
+		
+		width: 73%;
 		background: #eee url(../images/misc/modal-gloss.png) no-repeat -200px -80px;
 		position: absolute;
 		z-index: 41;

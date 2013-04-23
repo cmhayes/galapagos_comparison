@@ -48,10 +48,8 @@
                     	<ul class="topNav">
 				
 				
-					<li><a href="http://livinggalapagos.org" target="blank">MAIN SITE</a></li>	
-					<li><a href="http://livinggalapagos.org/learn" target="blank">LEARN</a></li>
-					<li><a href="http://livinggalapagos.org/en/about/" target="blank">ABOUT</a></li>
-					<li style="border:none;"><a href="http://livinggalapagos.org/blog" target="blank">BLOG</a></li>
+					<li><a href="http://livinggalapagos.org" target="blank">MAIN SITE</a></li>
+					<li style="border:none;"><a href="#" data-reveal-id="myModal">SOURCES</a></li>
                             
 			    
                         </ul>
@@ -118,7 +116,53 @@
 </div><!--////END FOOTER AREA-->
 
 </div>
+<div id="myModal" class="reveal-modal">
+  <div class="textHeadLoc">Bibliography</div>
+  <div class="textP">
+	
+	CDP, GNP, and Governing Council of Galapagos. (2010). Galapagos Report 2009-2010. Puerto Ayora, Galapagos, Ecuador.
+ <br />
+Charles Darwin Foundation. (2012). CDF meteorological database: Base de datos meterologico de la FCD. Retrieved from http://www.darwinfoundation.org/datazone/climate/.
+ <br />
+Epler, B. (2007). Tourism, the economy and population growth and conservation in Galapagos. Charles Darwin Foundation Papers. Retrieved from http://www.darwinfoundation.org/english/_upload/Epler_Tourism_Report-en_5-08.pdf.
+ <br />
+Galapagos Conservancy. (2012). Biodiversity.  Retrieved from http://www.galapagos.org/about_galapagos/biodiversity/.
+ <br />
+Instituto Nacional de Estadistica y Censos. (2010). Fasciculo provincial Galapagos. Retrieved from http://inec.gob.ec/cpv/descargables/fasciculos_provinciales/galapagos.pdf.
+ <br />
+Lee, C, Beleacov, M., & Higgins, N. (2012). State government finances summary: 2011. Government Division Briefs. Retrieved from http://www2.census.gov/govs/state/11statesummaryreport.pdf.
+ <br />
+Liang, X. (1999). Teacher pay in 12 Latin American countries: How does teacher pay compare to other professions, what determines teacher pay, and who are the teachers? World Bank Human Development Department LCSHD Paper Series No. 49. Retrieved from http://www.thedialogue.org/PublicationFiles/Liang%2027-English.pdf.
+ <br />
+Mendieta, M & Falconi, K. (2008). The current status of the educational system in Galapagos. Galapagos Report 2007-2008. Retrieved from http://www.galapagos.org/wp-content/uploads/2012/04/socio3-current-education-status.pdf.
+ <br />
+National Center for Education Statistics. (2003). State and county estimates of low literacy. Retrieved from http://nces.ed.gov/naal/estimates/StateEstimates.aspx.
+ <br />
+National Climate Data Center. (2013). Average relative humidity. Retrieved from http://www.ncdc.noaa.gov/oa/climate/online/ccd/avgrh.html.
+ <br />
+National Climate Data Center. (2013). Climatological rankings.  Retrieved from http://www.ncdc.noaa.gov/temp-and-precip/ranks.php.
+ <br />
+National Education Association. (2011). Rankings & estimates: Rankings of the states 2011 and estimates of school statistics 2012. Retrieved from http://www.nea.org/assets/docs/NEA_Rankings_And_Estimates_FINAL_20120209.pdf.
+ <br />
+National Environmental Satellite, Data and Information Service. (2013).  Comparative climate data. Retrieved from http://ols.nndc.noaa.gov/plolstore/plsql/olstore.prodspecific?prodnum=C00095-PUB-A0001.
+Sevilla, R. (2008). An inconvenient truth and some uncomfortable decisions concerning tourism in Galapagos. Galapagos Research, 65.  Retrieved from http://datazone.darwinfoundation.org/media/pdf/65/GR_65_2008_Sevilla_Inconvenient_truth.pdf.
+ <br />
+The State of the Birds. (2012). The state of the birds. Retrieved from http://www.stateofthebirds.org/2009/habitats/.
+ <br />
+U.S. Census Bureau. (2012). Gross domestic product by state in current and real (2005) dollars by state.  Retrieved from http://www.census.gov/compendia/statab/cats/income_expenditures_poverty_wealth/gross_domestic_product_gdp.html.
+ <br />
+U.S. Census Bureau. (2012). Health expenditures. Retrieved from http://www.census.gov/compendia/statab/cats/health_nutrition/health_expenditures.html.
+ <br />
+U.S. Census Bureau. (2012). Income statistics. Retrieved from http://www.census.gov/hhes/www/income/data/statistics/.
+ <br />
+U.S. Census Bureau. (2012). Elementary and secondary schools-teacher, enrollment and pupil-teacher ratio.  Retrieved from http://www.census.gov/compendia/statab/cats/education.html
+ <br />
+U.S. Department of Interior. (2012). Protected area data portal.  Retrieved from http://gis1.usgs.gov/csas/gap/viewer/padus/Map.aspx.
 
+	
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
 </body>
 
 <script src="{{STATIC_URL}}js/foundation1.min.js"></script>
@@ -144,12 +188,18 @@ $(".accordion").hide();
 				$("#state-revenue").html(t.revenue);
 				$("#state-protected_land_percentage").html(t.protected_land_percentage);
 				$("[id^=state-income]").html(t.income);
+				$("#state-student_teacher_text").html(t.student_teacher_text);
+				$("#state-teacher_salary").html(t.teacher_salary);
+				$("#state-literacy_rate").html(t.literacy_rate);
+				$("#state-health_budget").html(t.health_budget);
+				$("#state-health_expenditure").html(t.health_expenditure);
 				$("[id^=state-income_text]").html("<img src='" + t.income_text + "' width='60px'/>");
 				$("[id^=state-industry]").html("<img src='" + t.industry + "' />");
-            	$("[id^=state-teacher-image]").html("<img src='" + t.teacher + "' width='100px' />");
-    			for (i=0; i<studentNum; i++) {
+				$("[id^=state-teacher-image]").html("<img src='" + t.teacher + "' width='100px' />");
+				for (i=0; i<studentNum; i++) {
 					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='25px' margin='0' padding='0' />")
-    			};	
+					};
+				
                 // for(i=0; i<data.length; i++){
                 //     console.log(data[i].fields.name)
                 // };
