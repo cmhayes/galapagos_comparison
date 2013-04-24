@@ -53,7 +53,7 @@
                 <div id="state-name" class="textHeadLoc"></div>
                     <div id="state-weather" class="textP">
                         <h4>Average Rainfall Per Year</h4>
-                            <span class ="textItems"><span id="state-rainfall"></span>"</span><span id="state-rainfall_text"></span>
+                            <span class ="textItems"><span id="state-rainfall"></span>" </span><span id="state-rainfall_text" ></span>
                         <h4>Average Temperature</h4>
 			    <span class ="textItems"><span id="state-temperature"></span>&deg;F</span>               
                         <h4>Average Humidity Level</h4>
@@ -67,8 +67,8 @@
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
                         <h4>Average Rainfall Per Year</h4>
-                        {{specificGalapagos.rainfall_text}}
-                        <span class ="textItems">{{specificGalapagos.rainfall}}"</span>
+                        
+                        <span class ="textItems">{{specificGalapagos.rainfall}}" <img src="{{specificGalapagos.rainfall_text}}" width="90px"/></span>
                         <h4>Average Temperature</h4>
                         <span class ="textItems">{{specificGalapagos.temperature}}&deg;F</span> 
                         <h4>Average Humidity Level</h4>
@@ -108,7 +108,7 @@
                     <div class="textP">
                         <h4>Protected Land</h4>
 			<div id="state-protected_land_image"></div>
-				<span id="moveUp" class ="textItems"><span id="state-protected_land_percentage"></span>%</span>
+				<!--<span id="moveUp" class ="textItems"><span id="state-protected_land_percentage"></span>%</span>-->
                         <h4>Birds in Region</h4>
 			  <div class="nest centered">
                           <span class ="birdNum"><span id="state-birds_in_region"></span></span></div>
@@ -121,8 +121,8 @@
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
                         <h4>Protected Land</h4>
-                        {{specificGalapagos.protected_land_image}}
-                        <span class ="textItems">{{specificGalapagos.protected_land_percentage}}%</span>
+                        
+                        <span class ="textItems"><img src="{{specificGalapagos.protected_land_image}}" height="240px"/>{{specificGalapagos.protected_land_percentage}}%</span>
                         <h4>Birds in Region</h4>
 			<div class="nest">
                         <span id="center" class ="birdNum"><span class="center">{{specificGalapagos.birds_in_region}}</span></div>
@@ -257,7 +257,7 @@
                     <div class="textP">
                         <h4>Student/Teacher Ratio</h4>
                         <div id="student_teacher_ratio">
-                            <img src="{{specificGalapagos.teacher}}" width="75px"/><span style="font-size:48px;">:</span> 
+                            <img src="{{specificGalapagos.teacher}}" width="75px"/><span style="font-size:48px;"></span> 
                             <span id="imagesB"></span>
 			    
 			    <span class ="textItems">1:{{specificGalapagos.student_teacher_ratio}}</span>
@@ -319,7 +319,7 @@
                         
                         <h4>Percent of Budget Allocated</h4>
 			<span class ="textItems"><span id="state-health_budget"></span>%</span>
-			<span id="state-health_budget_text"></span>
+			<div id="state-health_budget_text" ></div>
 			
 			<h4>Health Expenditure</h4>
 			<span class ="textItems">$<span id="state-health_expenditure"></span> million</span>
@@ -332,7 +332,8 @@
                     <div class="textP">
                         <h4>Percent of Budget Allocated</h4>
                         <span class ="textItems">{{specificGalapagos.health_budget}}%</span>
-                        {{specificGalapagos.health_budget_text}}
+                        <!--{{specificGalapagos.health_budget_text}}-->
+			<div class ="textItems"><img src="{{specificGalapagos.health_expenditure_text}}" width="100%"/></div>
 			
 			<h4>Health Expenditure</h4>
 			<span class ="textItems">${{specificGalapagos.health_expenditure}} million</span>
