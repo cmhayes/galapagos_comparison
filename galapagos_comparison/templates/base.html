@@ -132,7 +132,9 @@
 <!-- Initialize JS Plugins -->
 <script src="{{STATIC_URL}}js/app.js"></script>
 <script type="text/javascript">
-$(".accordion").hide();
+$(document).ready(function() {
+	$(".accordion").hide();	
+});
     $(".selectState").change(function() {
     	$("#state-student-image").empty();
     	$(".accordion").show();
@@ -146,14 +148,14 @@ $(".accordion").hide();
             	var studentNum = parseInt(t.student_teacher_ratio);
             	$("[id^=state-name]").html(t.name);
             	$("#state-rainfall").html(t.rainfall);
-				$("#state-protected_land_image").css("background-image", "url(" + t.protected_land_image + ")").html("<h1 style='padding: 50px 0px 0px 50px'>"+t.protected_land_percentage+"%</h1>");
+				$("#state-protected_land_image").html("<img src=" +t.protected_land_image+ " height='240px' />");
+				$("#state-protected-percentage").html(t.protected_land_percentage + "%");
 				$("#state-birds_in_region").html(t.birds_in_region);
 				$("#state-birds_in_region_text").html(t.birds_in_region_text);
 				$("#state-temperature").html(t.temperature);
 				$("#state-rainfall_text").html("<img src='" + t.rainfall_text + "' width='90px'/>");
 				$("#state-humidity").html(t.humidity);
 				$("#state-revenue").html(t.revenue);
-				$("#state-protected_land_percentage").html(t.protected_land_percentage);
 				$("#state-income").html(t.income);
 				$("#state-student_teacher_text").html(t.student_teacher_text);
 				$("#state-teacher_salary").html(t.teacher_salary);

@@ -151,8 +151,10 @@ overflow:auto;
 	font-family: museo-sans-300;
 	font-size:6.8em;
 	font-weight: 800;
-	color: #F6F1ED; 
+	/*color: #F6F1ED; */
 	line-height:1.7em;
+	padding-left: 100px; 
+	background-position: 10px 50px;
 }
 
 .pullQuote {	
