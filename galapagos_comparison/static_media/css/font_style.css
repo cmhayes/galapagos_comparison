@@ -149,12 +149,13 @@ overflow:auto;
 
 .birdNum{
 	font-family: museo-sans-300;
-	font-size:6.8em;
+	font-size:7.7em;
 	font-weight: 800;
 	/*color: #F6F1ED; */
 	line-height:1em;
-	padding-left: 30%;
-	padding-top: 30px;
+	/*padding-left: 33%;*/
+	text-align: center;
+	padding-top: 40px;
 	background-position: 10px 50px;
 }
 
