@@ -847,7 +847,7 @@
         "fields": {
             "name": "New Hampshire",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/newHampshireFinal.png",
+            "protected_land_image": "static/images/50States/newhampshireFinal.png",
             "protected_land_percentage": "27",
             "revenue": "1,942,981",
             "income": "64,664",
@@ -877,7 +877,7 @@
         "fields": {
             "name": "New Jersey",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/newJerseyFinal.png",
+            "protected_land_image": "static/images/50States/newjerseyFinal.png",
             "protected_land_percentage": "28",
             "revenue": "14,155,068",
             "income": "71,280",
@@ -907,7 +907,7 @@
         "fields": {
             "name": "New Mexico",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/newMexicoFinal.png",
+            "protected_land_image": "static/images/50States/newmexicoFinal.png",
             "protected_land_percentage": "38",
             "revenue": "6,175,240",
             "income": "44,631",
@@ -937,7 +937,7 @@
         "fields": {
             "name": "New York",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/newYorkFinal.png",
+            "protected_land_image": "static/images/50States/newyorkFinal.png",
             "protected_land_percentage": "15",
             "revenue": "53,713,850",
             "income": "56,951",
@@ -997,7 +997,7 @@
         "fields": {
             "name": "North Dakota",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/northDakotaFinal.png",
+            "protected_land_image": "static/images/50States/northdakotaFinal.png",
             "protected_land_percentage": "11",
             "revenue": "1,700,965",
             "income": "49,415",
@@ -1147,7 +1147,7 @@
         "fields": {
             "name": "Rhode Island",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/rhodeIslandFinal.png",
+            "protected_land_image": "static/images/50States/rhodeislandFinal.png",
             "protected_land_percentage": "17",
             "revenue": "2,687,872",
             "income": "55,975",
@@ -1177,7 +1177,7 @@
         "fields": {
             "name": "South Carolina",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/southCarolinaFinal.png",
+            "protected_land_image": "static/images/50States/southcarolinaFinal.png",
             "protected_land_percentage": "7",
             "revenue": "8,234,603",
             "income": "44,587",
@@ -1207,7 +1207,7 @@
         "fields": {
             "name": "South Dakota",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/southDakotaFinal.png",
+            "protected_land_image": "static/images/50States/southdakotaFinal.png",
             "protected_land_percentage": "8",
             "revenue": "1,850,436",
             "income": "48,010",
@@ -1417,7 +1417,7 @@
         "fields": {
             "name": "West Virginia",
             "birds_in_region": "image",
-            "protected_land_image": "static/images/50States/westVirginiaFinal.png",
+            "protected_land_image": "static/images/50States/westvirginiaFinal.png",
             "protected_land_percentage": "11",
             "revenue": "4,668,284",
             "income": "39,550",

@@ -186,7 +186,7 @@ $(".accordion").hide();
             	var studentNum = parseInt(t.student_teacher_ratio);
             	$("[id^=state-name]").html(t.name);
             	$("[id^=state-rainfall]").html(t.rainfall);
-				$("#state-protected_land_image").html(t.protected_land_image);
+				$("#state-protected_land_image").html("<img src='" + t.protected_land_image + "' />");
 				$("#state-temperature").html(t.temperature);
 				$("#state-humidity").html(t.humidity);
 				$("#state-revenue").html(t.revenue);
