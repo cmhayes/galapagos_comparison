@@ -5,6 +5,7 @@
         "fields": {
             "name": "Galapagos",
             "birds_in_region": "168",
+            "birds_in_region_text": "text",
             "protected_land_image": "a",
             "protected_land_percentage": "97",
             "revenue": "185.8",

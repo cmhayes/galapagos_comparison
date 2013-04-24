@@ -5,6 +5,7 @@ class State(models.Model):
     name = models.CharField(unique=False, max_length=100)
     # biodiversity stats
     birds_in_region = models.CharField(unique=False, max_length=100)
+    birds_in_region_text = models.CharField(unique=False, max_length=100)
     protected_land_image = models.CharField(unique=False, max_length=25)
     protected_land_percentage = models.CharField(unique=False, max_length=25)
     # economic stats
@@ -44,6 +45,7 @@ class Galapagos(models.Model):
     name = models.CharField(unique=True, max_length=100)
     # biodiversity stats
     birds_in_region = models.CharField(unique=False, max_length=100)
+    birds_in_region_text = models.CharField(unique=False, max_length=100)
     protected_land_image = models.CharField(unique=False, max_length=25)
     protected_land_percentage = models.CharField(unique=False, max_length=25)
     # economic stats
