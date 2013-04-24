@@ -175,6 +175,7 @@ U.S. Department of Interior. (2012). Protected area data portal.  Retrieved from
 <script type="text/javascript">
 $(".accordion").hide();
     $(".selectState").change(function() {
+    	$("#state-student-image").empty();
     	$(".accordion").show();
     	var selectedId = $('option:selected', this).attr('id');
     	if (selectedId === 'default') { selectedId = 1;	};
@@ -185,7 +186,7 @@ $(".accordion").hide();
             	var t = data[selectedId-1].fields;
             	var studentNum = parseInt(t.student_teacher_ratio);
             	$("[id^=state-name]").html(t.name);
-            	$("[id^=state-rainfall]").html(t.rainfall);
+            	$("#state-rainfall").html(t.rainfall);
 				$("#state-protected_land_image").html("<img src='" + t.protected_land_image + "' width='70%'/>");
 				$("#state-birds_in_region").html(t.birds_in_region);
 				$("#state-birds_in_region_text").html(t.birds_in_region_text);
@@ -193,22 +194,18 @@ $(".accordion").hide();
 				$("#state-humidity").html(t.humidity);
 				$("#state-revenue").html(t.revenue);
 				$("#state-protected_land_percentage").html(t.protected_land_percentage);
-				$("[id^=state-income]").html(t.income);
+				$("#state-income]").html(t.income);
 				$("#state-student_teacher_text").html(t.student_teacher_text);
 				$("#state-teacher_salary").html(t.teacher_salary);
 				$("#state-literacy_rate").html(t.literacy_rate);
 				$("#state-health_budget").html(t.health_budget);
 				$("#state-health_expenditure").html(t.health_expenditure);
-				$("[id^=state-income_text]").html("<img src='" + t.income_text + "' width='60px'/>");
-				$("[id^=state-industry]").html("<img src='" + t.industry + "' />");
-				$("[id^=state-teacher-image]").html("<img src='" + t.teacher + "' width='80px' />");
+				$("#state-income_text").html("<img src='" + t.income_text + "' width='60px'/>");
+				$("#state-industry").html("<img src='" + t.industry + "' />");
+				$("#state-teacher-image").html("<img src='" + t.teacher + "' width='80px' />");
 				for (i=0; i<studentNum; i++) {
-					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='25px' margin='0' padding='0' />")
+					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='25px' />")
 					};
-				
-                // for(i=0; i<data.length; i++){
-                //     console.log(data[i].fields.name)
-                // };
             },
             error: function() { console.log("failure to load json file") }
         });
