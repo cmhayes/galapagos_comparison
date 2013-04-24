@@ -108,7 +108,7 @@
                     <div class="textP">
                         <h4>Protected Land</h4>
 			<span id="state-protected_land_image"></span>
-            <span id="state-protected-percentage" class="textItems"></span>
+            <div id="state-protected-percentage" class="birdNum"></div>
 
 
                         <h4>Birds in Region</h4>
@@ -131,9 +131,9 @@
                     <div class="textP">
                         <h4>Protected Land</h4>
                         
-                        <span class ="textItems"><img src="{{specificGalapagos.protected_land_image}}" height="240px"/>{{specificGalapagos.protected_land_percentage}}%</span>
+                        <span class="graphSpace"></span><img src="{{specificGalapagos.protected_land_image}}" width="70%"/><div class ="birdNum">{{specificGalapagos.protected_land_percentage}}%</div>
                         <h4>Birds in Region</h4>
-                        <div class="nest birdNum">{{specificGalapagos.birds_in_region}}</div>
+                        <div class="nest birdNum ">{{specificGalapagos.birds_in_region}}</div>
                     </div>
                 {% endfor %}
             </div>
