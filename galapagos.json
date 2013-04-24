@@ -24,7 +24,7 @@
             "health_budget": "32.5",
             "health_budget_text": "text",
             "health_expenditure": "3.03",
-            "health_expenditure_text": "text",
+            "health_expenditure_text": "static/images/pie/galapagosHealth.png",
             "hospitals_per_person": "1",
             "hospitals_per_person_text": "text"
         }
