@@ -535,7 +535,7 @@
             "name": "Lousiana",
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
-            "protected_land_image": "static/images/50States/louisianaFinal.png",
+            "protected_land_image": "static/images/50States/lousianaFinal.png",
             "protected_land_percentage": "9",
             "revenue": "12,437,512",
             "income": "44,086",
@@ -553,7 +553,7 @@
             "hospitals_per_person": "2.81",
             "hospitals_per_person_text": "image",
             "health_budget": "2.67",
-            "health_budget_text":"static/images/pie/louisianaHealth.png",
+            "health_budget_text":"static/images/pie/lousianaHealth.png",
             "health_expenditure": "641",
             "health_expenditure_text": "image"
         }
@@ -566,7 +566,7 @@
             "name": "Maine",
             "birds_in_region": "173",
             "birds_in_region_text": "(Coast)",
-            "protected_land_image": "static/images/50States/maineFinal.png",
+            "protected_land_image": "static/images/50States/mainFinal.png",
             "protected_land_percentage": "16",
             "revenue": "3,228,303",
             "income": "47,898",
