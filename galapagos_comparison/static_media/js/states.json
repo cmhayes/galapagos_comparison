@@ -4,9 +4,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Alabama",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(part of Eastern Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/alabamaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "4",
             "revenue": "8,497,453",
             "income": "42,934",
@@ -18,7 +23,7 @@
             "teacher_salary": "47,571",
             "literacy_rate": "85",
             "rainfall": "57.89",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "64.7",
             "humidity": "68",
             "hospitals_per_person": "2.35",
@@ -36,9 +41,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Alaska",
+<<<<<<< HEAD
             "birds_in_region": "85",
             "birds_in_region_text": "(Arctic)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/alaskaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "69",
             "revenue": "3,034,899",
             "income": "needs to be fixed",
@@ -50,7 +60,7 @@
             "teacher_salary": "60,732",
             "literacy_rate": "91",
             "rainfall": "number",
-            "rainfall_text": "image",
+            "rainfall_text": "",
             "temperature": "number",
             "humidity": "70.5",
             "hospitals_per_person": "2.86",
@@ -67,9 +77,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Arizona",
+<<<<<<< HEAD
             "birds_in_region": "83",
             "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/arizonaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "65",
             "revenue": "12,059,189",
             "income": "50,752",
@@ -81,7 +96,7 @@
             "teacher_salary": "46,952",
             "literacy_rate": "87",
             "rainfall": "11.65",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "61.3",
             "humidity": "39",
             "hospitals_per_person": "1.03",
@@ -99,9 +114,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Arkansas",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/arkansasFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "11",
             "revenue": "6,305,206",
             "income": "40,129",
@@ -113,7 +133,7 @@
             "teacher_salary": "46,045",
             "literacy_rate": "86",
             "rainfall": "41.23",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "62.9",
             "humidity": "67",
             "hospitals_per_person": "3.17",
@@ -130,9 +150,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "California",
+<<<<<<< HEAD
             "birds_in_region": "173",
             "birds_in_region_text": "(Coast)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/californiaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "60",
             "revenue": "64,503,778",
             "income": "61,632",
@@ -144,7 +169,7 @@
             "teacher_salary": "67,932",
             "literacy_rate": "77",
             "rainfall": "15.85",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "60.3",
             "humidity": "69",
             "hospitals_per_person": "1.02",
@@ -161,9 +186,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Colorado",
+<<<<<<< HEAD
             "birds_in_region": "83",
             "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/coloradoFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "41",
             "revenue": "6,931,517",
             "income": "57,685",
@@ -175,7 +205,7 @@
             "teacher_salary": "49,181",
             "literacy_rate": "90",
             "rainfall": "11.17",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "47.7",
             "humidity": "47.5",
             "hospitals_per_person": "1.46",
@@ -192,9 +222,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Connecticut",
+<<<<<<< HEAD
             "birds_in_region": "173",
             "birds_in_region_text": "(Coast)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/connecticutFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "10",
             "revenue": "6,552,077",
             "income": "69,243",
@@ -206,7 +241,7 @@
             "teacher_salary": "68,096",
             "literacy_rate": "91",
             "rainfall": "41.70",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainer.png",
             "temperature": "51.8",
             "humidity": "65.5",
             "hospitals_per_person": ".97",
@@ -223,9 +258,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Delaware",
+<<<<<<< HEAD
             "birds_in_region": "173",
             "birds_in_region_text": "(Coast)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/delawareFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "13",
             "revenue": "1,826,285",
             "income": "59,317",
@@ -237,7 +277,7 @@
             "teacher_salary": "57,080",
             "literacy_rate": "89",
             "rainfall": "39.09",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "58.3",
             "humidity": "66.5",
             "hospitals_per_person": ".71",
@@ -254,9 +294,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Florida",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern and Subtropical Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/floridaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "25",
             "revenue": "27,355,263",
             "income": "47,827",
@@ -268,7 +313,7 @@
             "teacher_salary": "46,708",
             "literacy_rate": "80",
             "rainfall": "56.79",
-            "rainfall_text": "image",
+            "rainfall_text": "static/media/rainiest.png",
             "temperature": "72",
             "humidity": "72",
             "hospitals_per_person": "1.14",
@@ -285,9 +330,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Georgia",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/georgiaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "6",
             "revenue": "14,988,228",
             "income": "49,736",
@@ -299,7 +349,7 @@
             "teacher_salary": "53,112",
             "literacy_rate": "83",
             "rainfall": "48.30",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "65.3",
             "humidity": "68",
             "hospitals_per_person": "1.61",
@@ -316,9 +366,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Hawaii",
+<<<<<<< HEAD
             "birds_in_region": "157",
             "birds_in_region_text": "",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/hawaiiFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "37",
             "revenue": "2,911,207",
             "income": "67,116",
@@ -330,7 +385,7 @@
             "teacher_salary": "55,063",
             "literacy_rate": "84",
             "rainfall": "70",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "77.5",
             "humidity": "63.5",
             "hospitals_per_person": "1.88",
@@ -347,9 +402,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Idaho",
+<<<<<<< HEAD
             "birds_in_region": "83",
             "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/idahoFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "67",
             "revenue": "2,794,755",
             "income": "46,890",
@@ -361,7 +421,7 @@
             "teacher_salary": "46,283",
             "literacy_rate": "90",
             "rainfall": "16.60",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "45.8",
             "humidity": "54.5",
             "hospitals_per_person": "2.73",
@@ -378,9 +438,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Illinois",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/illinoisFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "3",
             "revenue": "19,218,998",
             "income": "56,576",
@@ -392,7 +457,7 @@
             "teacher_salary": "62,731",
             "literacy_rate": "87",
             "rainfall": "34.75",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "54.9",
             "humidity": "70.5",
             "hospitals_per_person": "1.5",
@@ -409,9 +474,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Indiana",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/indianaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "3",
             "revenue": "10,791,819",
             "income": "48,393",
@@ -423,7 +493,7 @@
             "teacher_salary": "49,986",
             "literacy_rate": "92",
             "rainfall": "36.01",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "54.5",
             "humidity": "70.5",
             "hospitals_per_person": "1.79",
@@ -440,8 +510,12 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Iowa",
+<<<<<<< HEAD
             "birds_in_region": "46",
             "birds_in_region_text": "(Grassland)",
+=======
+            "birds_in_region": "static/images/50States/iowaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_image": "image",
             "protected_land_percentage": "1",
             "revenue": "6,821,976",
@@ -454,7 +528,7 @@
             "teacher_salary": "49,626",
             "literacy_rate": "93",
             "rainfall": "26.17",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "51.1",
             "humidity": "67",
             "hospitals_per_person": "3.91",
@@ -471,9 +545,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Kansas",
+<<<<<<< HEAD
             "birds_in_region": "46",
             "birds_in_region_text": "(Grassland)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/kansasFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "1",
             "revenue": "4,871,084",
             "income": "50,594",
@@ -485,7 +564,7 @@
             "teacher_salary": "46,660",
             "literacy_rate": "92",
             "rainfall": "19.06",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "57.3",
             "humidity": "65",
             "hospitals_per_person": "4.88",
@@ -502,9 +581,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Kentucky",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/kentuckyFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "5",
             "revenue": "8,861,617",
             "income": "42,248",
@@ -516,7 +600,7 @@
             "teacher_salary": "49,543",
             "literacy_rate": "88",
             "rainfall": "46.19",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "57.6",
             "humidity": "67",
             "hospitals_per_person": "2.47",
@@ -533,8 +617,12 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Lousiana",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
+=======
+            "birds_in_region": "static/images/50States/louisianaFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_image": "image",
             "protected_land_percentage": "9",
             "revenue": "12,437,512",
@@ -547,7 +635,7 @@
             "teacher_salary": "48,903",
             "literacy_rate": "84",
             "rainfall": "62.44",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "68.3",
             "humidity": "74",
             "hospitals_per_person": "2.81",
@@ -564,9 +652,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Maine",
+<<<<<<< HEAD
             "birds_in_region": "173",
             "birds_in_region_text": "(Coast)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/maineFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "16",
             "revenue": "3,228,303",
             "income": "47,898",
@@ -578,7 +671,7 @@
             "teacher_salary": "46,106",
             "literacy_rate": "93",
             "rainfall": "48.56",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "43.8",
             "humidity": "71.5",
             "hospitals_per_person": "2.8",
@@ -595,9 +688,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Maryland",
+<<<<<<< HEAD
             "birds_in_region": "173",
             "birds_in_region_text": "(Coast)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/marylandFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "12",
             "revenue": "10,977,164",
             "income": "72,419",
@@ -609,7 +707,7 @@
             "teacher_salary": "64,005",
             "literacy_rate": "89",
             "rainfall": "42.77",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "56.3",
             "humidity": "64.5",
             "hospitals_per_person": ".91",
@@ -626,9 +724,14 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Massachusetts",
+<<<<<<< HEAD
             "birds_in_region": "310",
             "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "image",
+=======
+            "birds_in_region": "image",
+            "protected_land_image": "static/images/50States/massachusettsFinal.png",
+>>>>>>> 6a2d825c9f329c87b944117adb35bdaa9b5ffdbe
             "protected_land_percentage": "20",
             "revenue": "13,842,921",
             "income": "65,981",
@@ -640,7 +743,7 @@
             "teacher_salary": "68,733",
             "literacy_rate": "90",
             "rainfall": "46.67",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "50.5",
             "humidity": "67",
             "hospitals_per_person": "1.23",
@@ -671,7 +774,7 @@
             "teacher_salary": "63,023",
             "literacy_rate": "92",
             "rainfall": "32.57",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "47.5",
             "humidity": "72.5",
             "hospitals_per_person": "1.42",
@@ -702,7 +805,7 @@
             "teacher_salary": "52,431",
             "literacy_rate": "94",
             "rainfall": "26.63",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "43.9",
             "humidity": "66.5",
             "hospitals_per_person": "2.55",
@@ -733,7 +836,7 @@
             "teacher_salary": "42,307",
             "literacy_rate": "84",
             "rainfall": "63.94",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "65.1",
             "humidity": "72.5",
             "hospitals_per_person": "3.15",
@@ -764,7 +867,7 @@
             "teacher_salary": "45,159",
             "literacy_rate": "93",
             "rainfall": "33.61",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "57.9",
             "humidity": "67.5",
             "hospitals_per_person": "2.05",
@@ -795,7 +898,7 @@
             "teacher_salary": "45,759",
             "literacy_rate": "91",
             "rainfall": "12.64",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "45.1",
             "humidity": "58",
             "hospitals_per_person": "5.56",
@@ -826,7 +929,7 @@
             "teacher_salary": "46,227",
             "literacy_rate": "93",
             "rainfall": "13.22",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "52.1",
             "humidity": "67.5",
             "hospitals_per_person": "4.83",
@@ -857,7 +960,7 @@
             "teacher_salary": "51,524",
             "literacy_rate": "83",
             "rainfall": "7.30",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "51.3",
             "humidity": "51.5",
             "hospitals_per_person": "1.04",
@@ -888,7 +991,7 @@
             "teacher_salary": "51,443",
             "literacy_rate": "94",
             "rainfall": "43.82",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "46.6",
             "humidity": "68.5",
             "hospitals_per_person": "2.14",
@@ -919,7 +1022,7 @@
             "teacher_salary": "65,130",
             "literacy_rate": "83",
             "rainfall": "47.14",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "55.2",
             "humidity": "71",
             "hospitals_per_person": ".89",
@@ -950,7 +1053,7 @@
             "teacher_salary": "46,258",
             "literacy_rate": "84",
             "rainfall": "8.55",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "55.1",
             "humidity": "44.5",
             "hospitals_per_person": "1.92",
@@ -981,7 +1084,7 @@
             "teacher_salary": "71,633",
             "literacy_rate": "78",
             "rainfall": "39.31",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "48.4",
             "humidity": "71.5",
             "hospitals_per_person": "1.08",
@@ -1012,7 +1115,7 @@
             "teacher_salary": "46,850",
             "literacy_rate": "87",
             "rainfall": "49.78",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "60.5",
             "humidity": "67.5",
             "hospitals_per_person": "1.3",
@@ -1043,7 +1146,7 @@
             "teacher_salary": "42,877",
             "literacy_rate": "94",
             "rainfall": "14.83",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "42.9",
             "humidity": "65.5",
             "hospitals_per_person": "6.28",
@@ -1074,7 +1177,7 @@
             "teacher_salary": "55,958",
             "literacy_rate": "91",
             "rainfall": "36.37",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "53.5",
             "humidity": "68.5",
             "hospitals_per_person": "1.42",
@@ -1105,7 +1208,7 @@
             "teacher_salary": "44,261",
             "literacy_rate": "88",
             "rainfall": "23.62",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "62.6",
             "humidity": "63.5",
             "hospitals_per_person": "3.04",
@@ -1136,7 +1239,7 @@
             "teacher_salary": "55,494",
             "literacy_rate": "90",
             "rainfall": "25.14",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "48.9",
             "humidity": "72",
             "hospitals_per_person": "1.59",
@@ -1167,7 +1270,7 @@
             "teacher_salary": "59,156",
             "literacy_rate": "88",
             "rainfall": "42.56",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "51.2",
             "humidity": "65.5",
             "hospitals_per_person": "1.62",
@@ -1198,7 +1301,7 @@
             "teacher_salary": "59,686",
             "literacy_rate": "91",
             "rainfall": "48.43",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "52.9",
             "humidity": "67.5",
             "hospitals_per_person": "1.02",
@@ -1229,7 +1332,7 @@
             "teacher_salary": "47,508",
             "literacy_rate": "85",
             "rainfall": "48.61",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "64.2",
             "humidity": "67.5",
             "hospitals_per_person": "1.43",
@@ -1260,7 +1363,7 @@
             "teacher_salary": "38,837",
             "literacy_rate": "93",
             "rainfall": "14.88",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "48.6",
             "humidity": "68",
             "hospitals_per_person": "6.44",
@@ -1291,7 +1394,7 @@
             "teacher_salary": "45,497",
             "literacy_rate": "87",
             "rainfall": "51.16",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainiest.png",
             "temperature": "59.7",
             "humidity": "68.5",
             "hospitals_per_person": "2.1",
@@ -1322,7 +1425,7 @@
             "teacher_salary": "48,261",
             "literacy_rate": "81",
             "rainfall": "21.25",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "67.4",
             "humidity": "65.5",
             "hospitals_per_person": "1.81",
@@ -1353,7 +1456,7 @@
             "teacher_salary": "46,340",
             "literacy_rate": "90",
             "rainfall": "8.93",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "50.1",
             "humidity": "55",
             "hospitals_per_person": "1.7",
@@ -1384,7 +1487,7 @@
             "teacher_salary": "49,084",
             "literacy_rate": "94",
             "rainfall": "40.99",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "45.9",
             "humidity": "67.5",
             "hospitals_per_person": "2.25",
@@ -1415,7 +1518,7 @@
             "teacher_salary": "48,043",
             "literacy_rate": "88",
             "rainfall": "43.01",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "57.1",
             "humidity": "63",
             "hospitals_per_person": "1.11",
@@ -1446,7 +1549,7 @@
             "teacher_salary": "53,003",
             "literacy_rate": "90",
             "rainfall": "40.30",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "48.6",
             "humidity": "72.5",
             "hospitals_per_person": "1.35",
@@ -1477,7 +1580,7 @@
             "teacher_salary": "44,505",
             "literacy_rate": "87",
             "rainfall": "43.96",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "53.7",
             "humidity": "71",
             "hospitals_per_person": "3.14",
@@ -1508,7 +1611,7 @@
             "teacher_salary": "51,264",
             "literacy_rate": "93",
             "rainfall": "29.94",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/rainy.png",
             "temperature": "46.3",
             "humidity": "71",
             "hospitals_per_person": "2.19",
@@ -1539,7 +1642,7 @@
             "teacher_salary": "55,861",
             "literacy_rate": "91",
             "rainfall": "7.71",
-            "rainfall_text": "image",
+            "rainfall_text": "static/images/notrainy.png",
             "temperature": "45.1",
             "humidity": "53",
             "hospitals_per_person": "4.52",
