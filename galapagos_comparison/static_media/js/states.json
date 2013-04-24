@@ -24,7 +24,7 @@
             "hospitals_per_person": "2.35",
             "hospitals_per_person_text": "image",
             "health_budget": "4.32",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/alabamaHealth.png",
             "health_expenditure": "668",
             "health_expenditure_text": "image"
 
@@ -56,7 +56,7 @@
             "hospitals_per_person": "2.86",
             "hospitals_per_person_text": "image",
             "health_budget": "1.78",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/alaskaHealth.png",
             "health_expenditure": "135",
             "health_expenditure_text": "image"
         }
@@ -87,7 +87,7 @@
             "hospitals_per_person": "1.03",
             "hospitals_per_person_text": "image",
             "health_budget": "8.93",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/arizonaHealth.png",
             "health_expenditure": "1.548",
             "health_expenditure_text": "image"
 
@@ -119,7 +119,7 @@
             "hospitals_per_person": "3.17",
             "hospitals_per_person_text": "image",
             "health_budget": "2.49",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/arkansasHealth.png",
             "health_expenditure": "248",
             "health_expenditure_text": "image"
         }
@@ -150,7 +150,7 @@
             "hospitals_per_person": "1.02",
             "hospitals_per_person_text": "image",
             "health_budget": "2.98",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/californiaHealth.png",
             "health_expenditure": "3.436",
             "health_expenditure_text": "image"
         }
@@ -181,7 +181,7 @@
             "hospitals_per_person": "1.46",
             "hospitals_per_person_text": "image",
             "health_budget": "5.15",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/coloradoHealth.png",
             "health_expenditure": "673",
             "health_expenditure_text": "image"
         }
@@ -212,7 +212,7 @@
             "hospitals_per_person": ".97",
             "hospitals_per_person_text": "image",
             "health_budget": "3.89",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/connecticutHealth.png",
             "health_expenditure": "617",
             "health_expenditure_text": "image"
         }
@@ -243,7 +243,7 @@
             "hospitals_per_person": ".71",
             "hospitals_per_person_text": "image",
             "health_budget": "7.07",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/delawareHealth.png",
             "health_expenditure": "381",
             "health_expenditure_text": "image"
         }
@@ -274,7 +274,7 @@
             "hospitals_per_person": "1.14",
             "hospitals_per_person_text": "image",
             "health_budget": "7.27",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/floridaHealth.png",
             "health_expenditure": "3.591",
             "health_expenditure_text": "image"
         }
@@ -305,7 +305,7 @@
             "hospitals_per_person": "1.61",
             "hospitals_per_person_text": "image",
             "health_budget": "4.5",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/georgiaHealth.png",
             "health_expenditure": "1.159",
             "health_expenditure_text": "image"
         }
@@ -336,7 +336,7 @@
             "hospitals_per_person": "1.88",
             "hospitals_per_person_text": "image",
             "health_budget": "7.1",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/hawaiiHealth.png",
             "health_expenditure": "670",
             "health_expenditure_text": "image"
         }
@@ -367,7 +367,7 @@
             "hospitals_per_person": "2.73",
             "hospitals_per_person_text": "image",
             "health_budget": "3.05",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/idahoHealth.png",
             "health_expenditure": "146",
             "health_expenditure_text": "image"
         }
@@ -398,7 +398,7 @@
             "hospitals_per_person": "1.5",
             "hospitals_per_person_text": "image",
             "health_budget": "5.48",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/illinoisHealth.png",
             "health_expenditure": "2.168",
             "health_expenditure_text": "image"
         }
@@ -429,7 +429,7 @@
             "hospitals_per_person": "1.79",
             "hospitals_per_person_text": "image",
             "health_budget": "2.87",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/indianaHealth.png",
             "health_expenditure": "586",
             "health_expenditure_text": "image"
         }
@@ -460,7 +460,7 @@
             "hospitals_per_person": "3.91",
             "hospitals_per_person_text": "image",
             "health_budget": "1.27",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/iowaHealth.png",
             "health_expenditure": "136",
             "health_expenditure_text": "image"
         }
@@ -491,7 +491,7 @@
             "hospitals_per_person": "4.88",
             "hospitals_per_person_text": "image",
             "health_budget": "2.27",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/kansasHealth.png",
             "health_expenditure": "214",
             "health_expenditure_text": "image"
         }
@@ -522,7 +522,7 @@
             "hospitals_per_person": "2.47",
             "hospitals_per_person_text": "image",
             "health_budget": "2.68",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/kentuckyHealth.png",
             "health_expenditure": "474",
             "health_expenditure_text": "image"
         }
@@ -553,7 +553,7 @@
             "hospitals_per_person": "2.81",
             "hospitals_per_person_text": "image",
             "health_budget": "2.67",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/louisianaHealth.png",
             "health_expenditure": "641",
             "health_expenditure_text": "image"
         }
@@ -584,7 +584,7 @@
             "hospitals_per_person": "2.8",
             "hospitals_per_person_text": "image",
             "health_budget": "7.68",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/maineHealth.png",
             "health_expenditure": "467",
             "health_expenditure_text": "image"
         }
@@ -615,7 +615,7 @@
             "hospitals_per_person": ".91",
             "hospitals_per_person_text": "image",
             "health_budget": "5.98",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/marylandHealth.png",
             "health_expenditure": "1.305",
             "health_expenditure_text": "image"
         }
@@ -646,7 +646,7 @@
             "hospitals_per_person": "1.23",
             "hospitals_per_person_text": "image",
             "health_budget": "3.37",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/massachusettsHealth.png",
             "health_expenditure": "1.049",
             "health_expenditure_text": "image"
         }
@@ -677,7 +677,7 @@
             "hospitals_per_person": "1.42",
             "hospitals_per_person_text": "image",
             "health_budget": "3.26",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/michiganHealth.png",
             "health_expenditure": "988",
             "health_expenditure_text": "image"
         }
@@ -708,7 +708,7 @@
             "hospitals_per_person": "2.55",
             "hospitals_per_person_text": "image",
             "health_budget": "2.55",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/minnesotaHealth.png",
             "health_expenditure": "486",
             "health_expenditure_text": "image"
         }
@@ -739,7 +739,7 @@
             "hospitals_per_person": "3.15",
             "hospitals_per_person_text": "image",
             "health_budget": "2.74",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/mississippiHealth.png",
             "health_expenditure": "320",
             "health_expenditure_text": "image"
         }
@@ -770,7 +770,7 @@
             "hospitals_per_person": "2.05",
             "hospitals_per_person_text": "image",
             "health_budget": "6.32",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/missouriHealth.png",
             "health_expenditure": "1.136",
             "health_expenditure_text": "image"
         }
@@ -801,7 +801,7 @@
             "hospitals_per_person": "5.56",
             "hospitals_per_person_text": "image",
             "health_budget": "7.53",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/montanaHealth.png",
             "health_expenditure": "309",
             "health_expenditure_text": "image"
         }
@@ -832,7 +832,7 @@
             "hospitals_per_person": "4.83",
             "hospitals_per_person_text": "image",
             "health_budget": "5.58",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/nebraskaHealth.png",
             "health_expenditure": "337",
             "health_expenditure_text": "image"
         }
@@ -863,7 +863,7 @@
             "hospitals_per_person": "1.04",
             "hospitals_per_person_text": "image",
             "health_budget": "4.54",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/nevadaHealth.png",
             "health_expenditure": "248",
             "health_expenditure_text": "image"
         }
@@ -894,7 +894,7 @@
             "hospitals_per_person": "2.14",
             "hospitals_per_person_text": "image",
             "health_budget": "2.91",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/newhampshireHealth.png",
             "health_expenditure": "123",
             "health_expenditure_text": "image"
         }
@@ -925,7 +925,7 @@
             "hospitals_per_person": ".89",
             "hospitals_per_person_text": "image",
             "health_budget": "3.54",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/newjerseyHealth.png",
             "health_expenditure": "1.270",
             "health_expenditure_text": "image"
         }
@@ -956,7 +956,7 @@
             "hospitals_per_person": "1.92",
             "hospitals_per_person_text": "image",
             "health_budget": "4.88",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/newmexicoHealth.png",
             "health_expenditure": "491",
             "health_expenditure_text": "image"
         }
@@ -987,7 +987,7 @@
             "hospitals_per_person": "1.08",
             "hospitals_per_person_text": "image",
             "health_budget": "2.81",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/newyorkHealth.png",
             "health_expenditure": "2.117",
             "health_expenditure_text": "image"
         }
@@ -1018,7 +1018,7 @@
             "hospitals_per_person": "1.3",
             "hospitals_per_person_text": "image",
             "health_budget": "4.62",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/northcarolinaHealth.png",
             "health_expenditure": "1.323",
             "health_expenditure_text": "image"
         }
@@ -1049,7 +1049,7 @@
             "hospitals_per_person": "6.28",
             "hospitals_per_person_text": "image",
             "health_budget": "1.82",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/northdakotaHealth.png",
             "health_expenditure": "54",
             "health_expenditure_text": "image"
         }
@@ -1080,7 +1080,7 @@
             "hospitals_per_person": "1.42",
             "hospitals_per_person_text": "image",
             "health_budget": "4.01",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/ohioHealth.png",
             "health_expenditure": "1.463",
             "health_expenditure_text": "image"
         }
@@ -1111,7 +1111,7 @@
             "hospitals_per_person": "3.04",
             "hospitals_per_person_text": "image",
             "health_budget": "4.34",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/oklahomaHealth.png",
             "health_expenditure": "556",
             "health_expenditure_text": "image"
         }
@@ -1142,7 +1142,7 @@
             "hospitals_per_person": "1.59",
             "hospitals_per_person_text": "image",
             "health_budget": "2.47",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/oregonHealth.png",
             "health_expenditure": "307",
             "health_expenditure_text": "image"
         }
@@ -1173,7 +1173,7 @@
             "hospitals_per_person": "1.62",
             "hospitals_per_person_text": "image",
             "health_budget": "1.67",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/pennsylvaniaHealth.png",
             "health_expenditure": "715",
             "health_expenditure_text": "image"
         }
@@ -1204,7 +1204,7 @@
             "hospitals_per_person": "1.02",
             "hospitals_per_person_text": "image",
             "health_budget": "3.49",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/rhodeislandHealth.png",
             "health_expenditure": "181",
             "health_expenditure_text": "image"
         }
@@ -1235,7 +1235,7 @@
             "hospitals_per_person": "1.43",
             "hospitals_per_person_text": "image",
             "health_budget": "5.9",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/southcarolinaHealth.png",
             "health_expenditure": "1.019",
             "health_expenditure_text": "image"
         }
@@ -1266,7 +1266,7 @@
             "hospitals_per_person": "6.44",
             "hospitals_per_person_text": "image",
             "health_budget": "4.41",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/southdakotaHealth.png",
             "health_expenditure": "120",
             "health_expenditure_text": "image"
         }
@@ -1297,7 +1297,7 @@
             "hospitals_per_person": "2.1",
             "hospitals_per_person_text": "image",
             "health_budget": "6.9",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/tennesseeHealth.png",
             "health_expenditure": "1.235",
             "health_expenditure_text": "image"
         }
@@ -1328,7 +1328,7 @@
             "hospitals_per_person": "1.81",
             "hospitals_per_person_text": "image",
             "health_budget": "2.65",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/texasHealth.png",
             "health_expenditure": "1.684",
             "health_expenditure_text": "image"
         }
@@ -1359,7 +1359,7 @@
             "hospitals_per_person": "1.7",
             "hospitals_per_person_text": "image",
             "health_budget": "3.5",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/utahHealth.png",
             "health_expenditure": "347",
             "health_expenditure_text": "image"
         }
@@ -1390,7 +1390,7 @@
             "hospitals_per_person": "2.25",
             "hospitals_per_person_text": "image",
             "health_budget": "4.85",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/vermontHealth.png",
             "health_expenditure": "163",
             "health_expenditure_text": "image"
         }
@@ -1421,7 +1421,7 @@
             "hospitals_per_person": "1.11",
             "hospitals_per_person_text": "image",
             "health_budget": "2.11",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/virginiaHealth.png",
             "health_expenditure": "533",
             "health_expenditure_text": "image"
         }
@@ -1452,7 +1452,7 @@
             "hospitals_per_person": "1.35",
             "hospitals_per_person_text": "image",
             "health_budget": "5.04",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/washingtonHealth.png",
             "health_expenditure": "1.257",
             "health_expenditure_text": "image"
         }
@@ -1483,7 +1483,7 @@
             "hospitals_per_person": "3.14",
             "hospitals_per_person_text": "image",
             "health_budget": "3.89",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/westvirginiaHealth.png",
             "health_expenditure": "293",
             "health_expenditure_text": "image"
         }
@@ -1514,7 +1514,7 @@
             "hospitals_per_person": "2.19",
             "hospitals_per_person_text": "image",
             "health_budget": "2.09",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/wisconsinHealth.png",
             "health_expenditure": "374",
             "health_expenditure_text": "image"
         }
@@ -1545,7 +1545,7 @@
             "hospitals_per_person": "4.52",
             "hospitals_per_person_text": "image",
             "health_budget": "9.77",
-            "health_budget_text":"image",
+            "health_budget_text":"static/images/pie/wyomingHealth.png",
             "health_expenditure": "273",
             "health_expenditure_text": "image"
         }
