@@ -317,7 +317,7 @@
         "fields": {
             "name": "Hawaii",
             "birds_in_region": "157",
-            "birds_in_region_text": "",
+            "birds_in_region_text": "Pacific Islands",
             "protected_land_image": "static/images/50States/hawaiiFinal.png",
             "protected_land_percentage": "37",
             "revenue": "2,911,207",

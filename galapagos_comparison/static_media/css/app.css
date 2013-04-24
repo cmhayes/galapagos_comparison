@@ -161,7 +161,7 @@ margin-bottom: 1.5em;
 
 #moveUp{position:relative; margin-top:-13%; }
 #center{text-align:center;}
-.nest{background-image: url("../images/nest.png"); background-size: contain; padding-right:1%; height:220px; margin:auto; background-repeat: no-repeat;}
+.nest{background-image: url("../images/nest.png"); background-size: contain; padding-right:1%; height:300px; margin:auto; background-repeat: no-repeat;}
 .center{position:absolute; margin-top: -5%; padding-left: 28%;}
 .galapagosMap{background-image: url("../images/galapagosFinal.png"); background-size: contain; padding-right:1%; height:220px; margin:auto; background-repeat: no-repeat;}
 

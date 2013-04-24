@@ -108,13 +108,14 @@
                     <div class="textP">
                         <h4>Protected Land</h4>
 			<span id="state-protected_land_image"></span>
-            <div id="state-protected-percentage" class="birdNum"></div>
+            <div id="state-protected-percentage" class="landNum"></div>
 
 
                         <h4>Birds in Region</h4>
+			<span class="textSubHead" id="state-birds_in_region_text"></span>
                         <div id="state-birds_in_region" class="nest birdNum"></div>
 
-                        <span id="state-birds_in_region_text"></span>
+                        
 			  <div class="textP" style="font-size:.8em; line-height:1.1.em;">*The number of bird species in a specific region 
 			  has been deemed a useful measure of biodiversity.  The variation across the states can be attributed to the findings 
 			  from the 2011 State of the Birds report, which outlined 11 habitats for more than 800 bird species in the continental 
@@ -131,8 +132,11 @@
                     <div class="textP">
                         <h4>Protected Land</h4>
                         
-                        <span class="graphSpace"></span><img src="{{specificGalapagos.protected_land_image}}" width="70%"/><div class ="birdNum">{{specificGalapagos.protected_land_percentage}}%</div>
+                        <span class="graphSpace"></span><img src="{{specificGalapagos.protected_land_image}}" width="70%"/>
+			<div class="graphSpace"></div>
+			<div class ="landNum">{{specificGalapagos.protected_land_percentage}}%</div>
                         <h4>Birds in Region</h4>
+			<span class="textSubHead" ></span>
                         <div class="nest birdNum ">{{specificGalapagos.birds_in_region}}</div>
                     </div>
                 {% endfor %}
