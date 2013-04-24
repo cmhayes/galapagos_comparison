@@ -187,7 +187,7 @@ $(".accordion").hide();
             	var studentNum = parseInt(t.student_teacher_ratio);
             	$("[id^=state-name]").html(t.name);
             	$("#state-rainfall").html(t.rainfall);
-				$("#state-protected_land_image").html("<img src='" + t.protected_land_image + "' width='70%'/>");
+				$("#state-protected_land_image").css("background-image", "url(" + t.protected_land_image + ")").html("<h1 style='padding: 50px 0px 0px 50px'>"+t.protected_land_percentage+"%</h1>");
 				$("#state-birds_in_region").html(t.birds_in_region);
 				$("#state-birds_in_region_text").html(t.birds_in_region_text);
 				$("#state-temperature").html(t.temperature);
