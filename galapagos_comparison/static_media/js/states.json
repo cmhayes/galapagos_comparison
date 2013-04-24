@@ -50,7 +50,7 @@
             "teacher_salary": "60,732",
             "literacy_rate": "91",
             "rainfall": "35.86",
-            "rainfall_text": "",
+            "rainfall_text": "static/images/rainier.png",
             "temperature": "30",
             "humidity": "70.5",
             "hospitals_per_person": "2.86",
