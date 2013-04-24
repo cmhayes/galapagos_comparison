@@ -155,6 +155,7 @@
 <script src="{{STATIC_URL}}js/app.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
+	$("#header").scrollTop(0); //prevent page jumping
 	$(".accordion").hide();	
 });
     $(".selectState").change(function() {
@@ -166,10 +167,10 @@ $(document).ready(function() {
             url: '{{STATIC_URL}}js/states.json',
             dataType: 'json',
             success: function(data) {
-            	var t = data[selectedId-1].fields;
-            	var studentNum = parseInt(t.student_teacher_ratio);
-            	$("[id^=state-name]").html(t.name);
-            	$("#state-rainfall").html(t.rainfall);
+            	var t = data[selectedId-1].fields; //simplify json calling
+            	var studentNum = parseInt(t.student_teacher_ratio); //give us a number
+            	$("[id^=state-name]").html(t.name); //general id selector because of multiple divs with same id
+            	$("#state-rainfall").html(t.rainfall); //normal single-id selector
 				$("#state-protected_land_image").html("<img src=" +t.protected_land_image+ " width='75%' />");
 				$("#state-protected-percentage").html(t.protected_land_percentage + "%");
 				$("#state-birds_in_region").html(t.birds_in_region);
@@ -188,7 +189,7 @@ $(document).ready(function() {
 				$("#state-income_text").html("<img src='" + t.income_text + "' width='60px'/>");
 				$("#state-industry").html("<img src='" + t.industry + "' />");
 				$("#state-teacher-image").html("<img src='" + t.teacher + "' width='80px' />");
-				for (i=0; i<studentNum; i++) {
+				for (i=0; i<studentNum; i++) { // loop to append student images to state div
 					$("#state-student-image").append("<img src='{{ STATIC_URL }}images/greenPerson.png' width='25px' />")
 					};
             },
