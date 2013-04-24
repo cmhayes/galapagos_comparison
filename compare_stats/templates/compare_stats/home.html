@@ -110,8 +110,23 @@
 			<span id="state-protected_land_image"></span>
             <span id="state-protected-percentage" class="textItems"></span>
 
+<<<<<<< HEAD
                         <h4>Birds in Region</h4>
                         <div id="state-birds_in_region" class="nest birdNum"></div>
+=======
+                        <span><h4>Birds in Region</h4>*<span id="state-birds_in_region_text"></span></span> 
+			  <div class="nest centered">
+                          <span class ="birdNum"><span id="state-birds_in_region"></span></span></div>
+
+			  <span ><div id="state-birds_in_region_text"></div></span> 
+			  <div class="textP" style="font-size:.8em; line-height:1.1.em;">*The number of bird species in a specific region 
+			  has been deemed a useful measure of biodiversity.  The variation across the states can be attributed to the findings 
+			  from the 2011 State of the Birds report, which outlined 11 habitats for more than 800 bird species in the continental 
+			  U.S., Hawaii and U.S. oceans.  The habitats include the following: aridlands, grasslands, forests, arctic & alpine, wetlands, 
+			  coasts, oceans, Hawaii, other islands, urban and upland game.  The number of birds per state correlates with the number of birds 
+			  in the habitat in which the majority of the state’s land falls.  </div>
+
+>>>>>>> 4dbbf3c23170aab597212ad6b9fe65d35b9b4339
                     </div>
             
             </div>
@@ -187,7 +202,7 @@
 				    <img src="{{ STATIC_URL }}images/galpLegend/public.png" /><br />
 				    <img src="{{ STATIC_URL }}images/galpLegend/construction.png" /><br />
 				    <img src="{{ STATIC_URL }}images/galpLegend/other.png" />-->
-				    <img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" />
+				    <img src="{{ STATIC_URL }}images/galapagosGraphs/legend.png" height="38px"/>
 			<div class="graphSpace">
                         <img src="{{specificGalapagos.industry}}" />
 			</div>
@@ -222,8 +237,8 @@
                         <h4>Student/Teacher Ratio</h4>
                         <span id="state-teacher-image"></span>
                         <span id="state-student-image"></span>
-			<span class ="textItems"><div id="state-student_teacher_text"></div></span>
-                        <div id="images"></div>
+			<div class ="textItems" id="state-student_teacher_text"></div>
+                        <!--<div id="images"></div>-->
 			
 			<h4>Average Teacher Salary</h4>
 			<span class ="textItems">$<span id="state-teacher_salary"></span></span>
@@ -255,11 +270,11 @@
                     <div class="textP">
                         <h4>Student/Teacher Ratio</h4>
                         <div id="student_teacher_ratio">
-                            <img src="{{specificGalapagos.teacher}}" width="75px"/><span style="font-size:48px;"></span> 
+                            <img src="{{specificGalapagos.teacher}}" width="80px"/><span style="font-size:48px;"></span> 
                             <span id="imagesB"></span>
-			    
-			    <span class ="textItems">1:{{specificGalapagos.student_teacher_ratio}}</span>
-                        </div>
+			</div>    
+			    <div class ="textItems">1:{{specificGalapagos.student_teacher_ratio}}</div>
+                        
                         
                         <script>
 
@@ -317,7 +332,7 @@
                         
                         <h4>Percent of Budget Allocated</h4>
 			<span class ="textItems"><span id="state-health_budget"></span>%</span>
-			<div id="state-health_budget_text" ></div>
+			<div class ="textItems" id="state-health_budget_text" ></div>
 			
 			<h4>Health Expenditure</h4>
 			<span class ="textItems">$<span id="state-health_expenditure"></span> million</span>
