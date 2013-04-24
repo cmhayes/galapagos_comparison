@@ -157,6 +157,9 @@ margin-bottom: 1.5em;
 .iconSpace{padding-right: 10px;}
 .graphSpace{padding-top: 98px;}
 
+#moveUp{position:relative; margin-top:-13%; }
+#center{text-align:center;}
+
 /*new home styles*/
 
 

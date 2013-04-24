@@ -108,9 +108,10 @@
                     <div class="textP">
                         <h4>Protected Land</h4>
 			<div id="state-protected_land_image"></div>
-				<span class ="textItems"><span id="state-protected_land_percentage"></span>%</span>
+				<span id="moveUp" class ="textItems"><span id="state-protected_land_percentage"></span>%</span>
                         <h4>Birds in Region</h4>
-                          
+                          <span id="center" class ="textItems"><div id="state-birds_in_region"></div></span>
+			  <span id="center"><div id="state-birds_in_region_text"></div></span> 
                     </div>
             
             </div>
@@ -252,10 +253,12 @@
                 {% for specificGalapagos in galapagos %}
                 <div class="textHeadLoc">{{specificGalapagos.name}}</div>
                     <div class="textP">
-                        <h4>Student/Teacher Ratio: {{specificGalapagos.student_teacher_ratio}}:1</h4>
+                        <h4>Student/Teacher Ratio</h4>
                         <div id="student_teacher_ratio">
                             <img src="{{specificGalapagos.teacher}}" width="75px"/><span style="font-size:48px;">:</span> 
                             <span id="imagesB"></span>
+			    
+			    <span class ="textItems">1:{{specificGalapagos.student_teacher_ratio}}</span>
                         </div>
                         
                         <script>
@@ -316,7 +319,7 @@
 			<span class ="textItems"><span id="state-health_budget"></span>%</span>
 			
 			<h4>Health Expenditure</h4>
-			<span class ="textItems">$<span id="state-health_expenditure"></span> billion</span>
+			<span class ="textItems">$<span id="state-health_expenditure"></span> million</span>
                     </div>
                 
             </div>
@@ -329,7 +332,7 @@
                         {{specificGalapagos.health_budget_text}}
 			
 			<h4>Health Expenditure</h4>
-			<span class ="textItems">${{specificGalapagos.health_expenditure}} billion</span>
+			<span class ="textItems">${{specificGalapagos.health_expenditure}} million</span>
                     </div>
                 {% endfor %}
             </div>

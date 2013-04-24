@@ -4,7 +4,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Alabama",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(part of Eastern Forest)",
             "protected_land_image": "static/images/50States/alabamaFinal.png",
             "protected_land_percentage": "4",
             "revenue": "8,497,453",
@@ -35,7 +36,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Alaska",
-            "birds_in_region": "image",
+            "birds_in_region": "85",
+            "birds_in_region_text": "(Arctic)",
             "protected_land_image": "static/images/50States/alaskaFinal.png",
             "protected_land_percentage": "69",
             "revenue": "3,034,899",
@@ -65,7 +67,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Arizona",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/arizonaFinal.png",
             "protected_land_percentage": "65",
             "revenue": "12,059,189",
@@ -96,7 +99,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Arkansas",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/arkansasFinal.png",
             "protected_land_percentage": "11",
             "revenue": "6,305,206",
@@ -126,7 +130,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "California",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/californiaFinal.png",
             "protected_land_percentage": "60",
             "revenue": "64,503,778",
@@ -156,7 +161,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Colorado",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/coloradoFinal.png",
             "protected_land_percentage": "41",
             "revenue": "6,931,517",
@@ -186,7 +192,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Connecticut",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/connecticutFinal.png",
             "protected_land_percentage": "10",
             "revenue": "6,552,077",
@@ -216,7 +223,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Delaware",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/delawareFinal.png",
             "protected_land_percentage": "13",
             "revenue": "1,826,285",
@@ -246,7 +254,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Florida",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern and Subtropical Forest)",
             "protected_land_image": "static/images/50States/floridaFinal.png",
             "protected_land_percentage": "25",
             "revenue": "27,355,263",
@@ -276,7 +285,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Georgia",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/georgiaFinal.png",
             "protected_land_percentage": "6",
             "revenue": "14,988,228",
@@ -306,7 +316,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Hawaii",
-            "birds_in_region": "image",
+            "birds_in_region": "157",
+            "birds_in_region_text": "",
             "protected_land_image": "static/images/50States/hawaiiFinal.png",
             "protected_land_percentage": "37",
             "revenue": "2,911,207",
@@ -336,7 +347,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Idaho",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/idahoFinal.png",
             "protected_land_percentage": "67",
             "revenue": "2,794,755",
@@ -366,7 +378,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Illinois",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/illinoisFinal.png",
             "protected_land_percentage": "3",
             "revenue": "19,218,998",
@@ -396,7 +409,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Indiana",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/indianaFinal.png",
             "protected_land_percentage": "3",
             "revenue": "10,791,819",
@@ -426,8 +440,9 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Iowa",
-            "birds_in_region": "static/images/50States/iowaFinal.png",
-            "protected_land_image": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grassland)",
+            "protected_land_image": "static/images/50States/iowaFinal.png",
             "protected_land_percentage": "1",
             "revenue": "6,821,976",
             "income": "50,451",
@@ -456,7 +471,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Kansas",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grassland)",
             "protected_land_image": "static/images/50States/kansasFinal.png",
             "protected_land_percentage": "1",
             "revenue": "4,871,084",
@@ -486,7 +502,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Kentucky",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/kentuckyFinal.png",
             "protected_land_percentage": "5",
             "revenue": "8,861,617",
@@ -516,8 +533,9 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Lousiana",
-            "birds_in_region": "static/images/50States/louisianaFinal.png",
-            "protected_land_image": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
+            "protected_land_image": "static/images/50States/louisianaFinal.png",
             "protected_land_percentage": "9",
             "revenue": "12,437,512",
             "income": "44,086",
@@ -546,7 +564,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Maine",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/maineFinal.png",
             "protected_land_percentage": "16",
             "revenue": "3,228,303",
@@ -576,7 +595,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Maryland",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/marylandFinal.png",
             "protected_land_percentage": "12",
             "revenue": "10,977,164",
@@ -606,7 +626,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Massachusetts",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/massachusettsFinal.png",
             "protected_land_percentage": "20",
             "revenue": "13,842,921",
@@ -636,7 +657,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Michigan",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern/Boreal Forest)",
             "protected_land_image": "static/images/50States/michiganFinal.png",
             "protected_land_percentage": "14",
             "revenue": "19,712,474",
@@ -666,7 +688,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Minnesota",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grassland)",
             "protected_land_image": "static/images/50States/minnesotaFinal.png",
             "protected_land_percentage": "24",
             "revenue": "9,655,665",
@@ -696,7 +719,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Mississippi",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/mississippiFinal.png",
             "protected_land_percentage": "5",
             "revenue": "8,607,252",
@@ -726,7 +750,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Missouri",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grassland)",
             "protected_land_image": "static/images/50States/missouriFinal.png",
             "protected_land_percentage": "6",
             "revenue": "11,703,476",
@@ -756,7 +781,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Montana",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grassland)",
             "protected_land_image": "static/images/50States/montanaFinal.png",
             "protected_land_percentage": "37",
             "revenue": "2,406,954",
@@ -786,7 +812,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Nebraska",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grassland)",
             "protected_land_image": "static/images/50States/nebraskaFinal.png",
             "protected_land_percentage": "3",
             "revenue": "3,353,036",
@@ -816,7 +843,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Nevada",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridland)",
             "protected_land_image": "static/images/50States/nevadaFinal.png",
             "protected_land_percentage": "82",
             "revenue": " 2,656,430",
@@ -846,7 +874,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "New Hampshire",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/newhampshireFinal.png",
             "protected_land_percentage": "27",
             "revenue": "1,942,981",
@@ -876,7 +905,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "New Jersey",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/newjerseyFinal.png",
             "protected_land_percentage": "28",
             "revenue": "14,155,068",
@@ -906,7 +936,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "New Mexico",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/newmexicoFinal.png",
             "protected_land_percentage": "38",
             "revenue": "6,175,240",
@@ -936,7 +967,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "New York",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern/Boreal Forest)",
             "protected_land_image": "static/images/50States/newyorkFinal.png",
             "protected_land_percentage": "15",
             "revenue": "53,713,850",
@@ -966,7 +998,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "North Carolina",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/northcarolinaFinal.png",
             "protected_land_percentage": "9",
             "revenue": "15,710,848",
@@ -996,7 +1029,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "North Dakota",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grasslands)",
             "protected_land_image": "static/images/50States/northdakotaFinal.png",
             "protected_land_percentage": "11",
             "revenue": "1,700,965",
@@ -1026,7 +1060,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Ohio",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/ohioFinal.png",
             "protected_land_percentage": "4",
             "revenue": "23,569,561",
@@ -1056,7 +1091,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Oklahoma",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grasslands)",
             "protected_land_image": "static/images/50States/oklahomaFinal.png",
             "protected_land_percentage": "3",
             "revenue": "7,755,558",
@@ -1086,7 +1122,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Oregon",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/oregonFinal.png",
             "protected_land_percentage": "54",
             "revenue": "7,589,046",
@@ -1116,7 +1153,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Pennsylvania",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/pennsylvaniaFinal.png",
             "protected_land_percentage": "15",
             "revenue": "23,614,126",
@@ -1146,7 +1184,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Rhode Island",
-            "birds_in_region": "image",
+            "birds_in_region": "173",
+            "birds_in_region_text": "(Coast)",
             "protected_land_image": "static/images/50States/rhodeislandFinal.png",
             "protected_land_percentage": "17",
             "revenue": "2,687,872",
@@ -1176,7 +1215,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "South Carolina",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/southcarolinaFinal.png",
             "protected_land_percentage": "7",
             "revenue": "8,234,603",
@@ -1206,7 +1246,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "South Dakota",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grasslands)",
             "protected_land_image": "static/images/50States/southdakotaFinal.png",
             "protected_land_percentage": "8",
             "revenue": "1,850,436",
@@ -1236,7 +1277,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Tennessee",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/tennesseeFinal.png",
             "protected_land_percentage": "7",
             "revenue": "12,049,283",
@@ -1266,7 +1308,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Texas",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/texasFinal.png",
             "protected_land_percentage": "3",
             "revenue": "42,218,629",
@@ -1296,7 +1339,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Utah",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/utahFinal.png",
             "protected_land_percentage": "67",
             "revenue": "4,359,486",
@@ -1326,7 +1370,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Vermont",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Boreal Forest)",
             "protected_land_image": "static/images/50States/vermontFinal.png",
             "protected_land_percentage": "17",
             "revenue": "2,025,534",
@@ -1356,7 +1401,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Virginia",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/virginiaFinal.png",
             "protected_land_percentage": "11",
             "revenue": "9,997,407",
@@ -1386,7 +1432,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Washington",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/washingtonFinal.png",
             "protected_land_percentage": "36",
             "revenue": "10,636,760",
@@ -1416,7 +1463,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "West Virginia",
-            "birds_in_region": "image",
+            "birds_in_region": "310",
+            "birds_in_region_text": "(Eastern Forest)",
             "protected_land_image": "static/images/50States/westvirginiaFinal.png",
             "protected_land_percentage": "11",
             "revenue": "4,668,284",
@@ -1446,7 +1494,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Wisconsin",
-            "birds_in_region": "image",
+            "birds_in_region": "46",
+            "birds_in_region_text": "(Grasslands)",
             "protected_land_image": "static/images/50States/wisconsinFinal.png",
             "protected_land_percentage": "8",
             "revenue": "10,318,534",
@@ -1476,7 +1525,8 @@
         "model": "compare_stats.State",
         "fields": {
             "name": "Wyoming",
-            "birds_in_region": "image",
+            "birds_in_region": "83",
+            "birds_in_region_text": "(Aridlands)",
             "protected_land_image": "static/images/50States/wyomingFinal.png",
             "protected_land_percentage": "54",
             "revenue": "2,204,071",
