@@ -147,6 +147,14 @@ overflow:auto;
 	line-height:1.7em;
 }
 
+.birdNum{
+	font-family: museo-sans-300;
+	font-size:6.8em;
+	font-weight: 800;
+	color: #F6F1ED; 
+	line-height:1.7em;
+}
+
 .pullQuote {	
 	font-family:museo-sans-500;
 	font-size: 1.5em;
