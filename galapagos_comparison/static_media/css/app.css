@@ -23,8 +23,9 @@ body {
 	width:100%;
 	height:100%;
 	background-image:url("http://reinhardt.jomc.unc.edu/media/uploads/background-video/jpg/BG_Pelican_Sunset.jpg");
-	background-repeat:repeat-y;
+	background-repeat:no-repeat;
 	z-index:0;
+	background-attachment: fixed;
 	position:absolute;
 }
 
@@ -126,6 +127,7 @@ margin-bottom: 1.5em;
 }
 
 #state-income_text{padding-left: 10px; position: absolute; margin-bottom:-18px; width: 60px;}
+#state-protected_land_image {height: 220px; background-repeat: no-repeat; background-size: contain;}
 
 
 
@@ -152,6 +154,16 @@ margin-bottom: 1.5em;
 
 .panoHead{width: 100%; height: 250px; z-index: 0; position:absolute; margin-left: -12px; }
 .invisible{opacity: .00; position: absolute; z-index: -1;}
+
+.spacer{ padding-left: 6px; padding-right: 18px;}
+.iconSpace{padding-right: 10px;}
+.graphSpace{padding-top: 72px;}
+
+#moveUp{position:relative; margin-top:-13%; }
+#center{text-align:center;}
+.nest{background-image: url("../images/nest.png"); background-size: contain; padding-right:1%; height:300px; margin:auto; background-repeat: no-repeat;}
+.center{position:absolute; margin-top: -5%; padding-left: 28%;}
+.galapagosMap{background-image: url("../images/galapagosFinal.png"); background-size: contain; padding-right:1%; height:220px; margin:auto; background-repeat: no-repeat;}
 
 
 /*new home styles*/

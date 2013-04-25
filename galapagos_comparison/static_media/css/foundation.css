@@ -76,7 +76,7 @@
 /* Accordion ---------------------- */
 ul.accordion { margin: 0 0 22px 0; border-bottom: 1px solid #A89E88; -moz-box-shadow: 0 0 13px #000; -webkit-box-shadow: 0 0 13px #000; box-shadow: 0 0 13px #000;}
 ul.accordion > li { list-style: none; margin: 0; padding: 0; border-top: 1px solid #A89E88; }
-ul.accordion > li > div.title { cursor: pointer; background-color: #EAE5D7; padding: 17px 0 5px 4.1%; margin: 0; position: relative; border-left: 1px solid #A89E88; border-right: 1px solid #A89E88; border-right: 1px solid #A89E88;-webkit-transition: 0.15s background linear; -moz-transition: 0.15s background linear; -o-transition: 0.15s background linear; transition: 0.15s background linear; }
+ul.accordion > li > div.title { cursor: pointer; background-color: #EAE5D7; padding: 17px 0 5px .7%; margin: 0; position: relative; border-left: 1px solid #A89E88; border-right: 1px solid #A89E88; border-right: 1px solid #A89E88;-webkit-transition: 0.15s background linear; -moz-transition: 0.15s background linear; -o-transition: 0.15s background linear; transition: 0.15s background linear; }
 ul.accordion > li > div.title h1, ul.accordion > li > div.title h2, ul.accordion > li > div.title h3, ul.accordion > li > div.title h4, ul.accordion > li > div.title h5 { margin: 0; }
 ul.accordion > li > div.title:after { content: ""; display: block; width: 0; height: 0; border: solid 6px; border-color: transparent #A89E88 transparent transparent; position: absolute; right: 15px; top: 21px; }
 ul.accordion > li .content { display: none; padding: 15px 2.5em 15px 4.1%; }
@@ -218,9 +218,9 @@ ul.accordion > li.active .content { background-color: #fff; display: block; bord
 	/* To fix the grid into a certain size, set max-width to width */
 	.row .row { min-width: 0; }
 	
-	.column, .columns { margin-left: 4.4%; float: left; min-height: 1px; position: relative; }
+	.column, .columns { margin-left: 2%; float: left; min-height: 1px; position: relative; }
 	.column:first-child, .columns:first-child { margin-left: 0; }
-	[class*="column"] + [class*="column"]:last-child { float: right; }
+	[class*="column"] + [class*="column"]:last-child { float: left; }
 	
 	.row .one 		{ width: 4.3%; }
 	.row .two 		{ width: 13%; }
@@ -1103,9 +1103,9 @@ ul.orbit-bullets li.active.has-thumb {
 	.reveal-modal {
 		visibility: hidden;
 		top: 100px; 
-		left: 50%;
-		margin-left: -300px;
-		width: 520px;
+		left: 10%;
+		
+		width: 73%;
 		background: #eee url(../images/misc/modal-gloss.png) no-repeat -200px -80px;
 		position: absolute;
 		z-index: 41;

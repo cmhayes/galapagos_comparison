@@ -80,6 +80,7 @@ overflow:auto;
 .textHeadAccordion {
 	font-family:qhytsdakx;
 	font-size: 4.1em;
+	padding-left: 3px;
 	color: #92836F;
 }
 
@@ -140,10 +141,32 @@ overflow:auto;
 
 .textItems{
 	font-family: museo-sans-300;
-	font-size:5em;
+	font-size:3.5em;
 	font-weight: 800;
 	color: #29221c; 
 	line-height:1.7em;
+}
+
+.birdNum{
+	font-family: museo-sans-300;
+	font-size:7.7em;
+	font-weight: 800;
+	/*color: #F6F1ED; */
+	line-height:1em;
+	/*padding-left: 33%;*/
+	text-align: center;
+	padding-top: 40px;
+	background-position: 10px 50px;
+}
+
+.landNum{
+	font-family: museo-sans-300;
+	font-size:6.8em;
+	font-weight: 800;
+	/*color: #F6F1ED; */
+	line-height:1em;
+	padding-left: 100px; 
+	background-position: 10px 50px;
 }
 
 .pullQuote {	
