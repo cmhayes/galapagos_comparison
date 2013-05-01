@@ -39,6 +39,7 @@ class State(models.Model):
     def save(self, *args, **kwargs):
         self.name = self.name.upper()
         super(specificState, self).save(*args, **kwargs)
+        
 
 
 class Galapagos(models.Model):
