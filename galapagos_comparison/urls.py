@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'galapagos_comparison.views.home', name='home'),
     # url(r'^galapagos_comparison/', include('galapagos_comparison.foo.urls')),
     url(r'^', include('compare_stats.urls')),
+    url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
